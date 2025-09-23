@@ -1,4 +1,4 @@
-base_url = "https://mrlh-eurips-2025.github.io/"
+base_url = "https://multimodal-rep-learning-for-health.github.io/"
 title = "Multimodal Representation Learning for Healthcare (Eurips 2025 Workshop)"
 description = "Official website for the Eurips 2025 workshop on multimodal representation learning in healthcare."
 default_language = "en"
