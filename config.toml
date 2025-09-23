@@ -1,16 +1,49 @@
-# The URL the site will be built for
 base_url = "https://example.com"
-
-# Whether to automatically compile all Sass files in the sass directory
+title = "Multimodal Representation Learning for Healthcare (Eurips 2025 Workshop)"
+description = "Official website for the Eurips 2025 workshop on multimodal representation learning in healthcare."
+default_language = "en"
 compile_sass = true
-
-# Whether to build a search index to be used later on by a JavaScript library
-build_search_index = false
+minify_html = true
+theme = "academic-workshop"
 
 [markdown]
-# Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
 highlight_code = true
 
 [extra]
-# Put all your custom variables here
+# Hero header (use block tables instead of inline)
+[extra.title]
+title = "Multimodal Representation Learning for Healthcare"
+subtitles = ["EurIPS 2025 Workshop"]
+
+# Navbar entries -> anchor links to sections on the same page
+[[extra.header_pages]]
+name = "About"
+url = "/#about"
+
+[[extra.header_pages]]
+name = "Key Info"
+url = "/#key-info"
+
+[[extra.header_pages]]
+name = "Call for Papers"
+url = "/cfp/"
+
+[[extra.header_pages]]
+name = "Schedule"
+url = "/#schedule"
+
+[[extra.header_pages]]
+name = "Speakers"
+url = "/#speakers"
+
+[[extra.header_pages]]
+name = "Organizers"
+url = "/#organizers"
+
+
+# Banner (you can replace static/banner.svg later)
+[extra.banner]
+extension = "svg"
+size = "fixed"
+fade = true
+

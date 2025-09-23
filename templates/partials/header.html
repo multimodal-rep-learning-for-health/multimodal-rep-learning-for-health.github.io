@@ -1,0 +1,16 @@
+<header class="topbar">
+  <div class="topbar__inner">
+    <a class="topbar__brand" href="#home">
+      {# Use an SVG/PNG logo in /static if you have one #}
+      {# <img src="/logo.svg" alt="Workshop logo" class="topbar__logo"> #}
+      <span class="topbar__title">Multimodal Representation Learning for Healthcare</span>
+    </a>
+
+    <nav class="topbar__nav">
+      {% for item in config.extra.header_pages %}
+        <a class="topbar__link" href="{{ item.url | safe }}">{{ item.name }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>
+
