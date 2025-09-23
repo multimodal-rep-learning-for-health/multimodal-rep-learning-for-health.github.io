@@ -1,3 +1,4 @@
+# .github/workflows/deploy.yml
 name: Deploy Zola to GitHub Pages
 
 on:
@@ -18,18 +19,17 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: taiki-e/setup-zola@v1
-      - run: zola build
-      - uses: actions/upload-pages-artifact@v3
+      - name: Checkout (with submodules)
+        uses: actions/checkout@v4
         with:
-          path: public
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-    steps:
-      - id: deployment
-        uses: actions/deploy-pages@v4
+          submodules: true
+          fetch-depth: 0
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Install Zola
+        uses: taiki-e/install-action@v2
+        with:
+          tool: zola@latest   # or pin e.g. z
 
