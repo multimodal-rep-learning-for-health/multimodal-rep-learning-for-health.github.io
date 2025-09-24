@@ -18,7 +18,7 @@
 
         {# Case 2: root-relative fragment like "/#speakers" -> home + "#speakers" #}
         {% elif href | slice(start=0, end=2) == "/#" %}
-          {% set href = home ~ "#" ~ (href | trim_start_matches(pat="/#")) %}
+          {% set href = home ~ "#" ~ href | slice(start=2) %}
 
         {# Case 3: bare "/" -> home #}
         {% elif href == "/" %}
@@ -34,7 +34,7 @@
 
         {# Fallback: treat as relative to home (e.g., "cfp/" or "cfp") #}
         {% else %}
-          {% set href = home ~ (href | trim_start_matches(pat="/")) %}
+          {% set href = home ~ href | trim_start_matches(pat="/") %}
         {% endif %}
 
         {# Add target+rel only for truly external links #}
