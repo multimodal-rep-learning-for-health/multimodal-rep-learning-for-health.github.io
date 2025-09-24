@@ -1,54 +1,44 @@
 <header class="topbar">
   <div class="topbar__inner">
-    {% set home = config.base_url %}
-    {% if not home is ending_with("/") %}
-      {% set home = home ~ "/" %}
+    {% set base_url = config.base_url %}
+    {% if not base_url is ending_with("/") %}
+      {% set base_url = base_url ~ "/" %}
     {% endif %}
 
-    <a class="topbar__brand" href="{{ home }}#home">
+    <a class="topbar__brand" href="{{ base_url }}#home">
       {# <img src="{{ get_url(path='logo.svg') }}" alt="Workshop logo" class="topbar__logo"> #}
       <span class="topbar__title">Multimodal Representation Learning for Healthcare</span>
     </a>
 
     <nav class="topbar__nav">
       {% for item in config.extra.header_pages %}
-        {# Start with the raw URL #}
-        {% set href = item.url | trim %}
-
-        {# Case 1: fragment-only -> home + fragment #}
-        {% if href and href | slice(start=0, end=1) == "#" %}
-          {% set final_href = home ~ href %}
-
-        {# Case 2: root-relative fragment like "/#speakers" -> home + "#speakers" #}
-        {% elif href | slice(start=0, end=2) == "/#" %}
-          {% set final_href = home ~ href | slice(start=1) %}
-
-        {# Case 3: bare "/" -> home #}
-        {% elif href == "/" %}
-          {% set final_href = home %}
-
-        {# Case 4: Zola path "@/..." -> resolve with get_url #}
-        {% elif href | slice(start=0, end=2) == "@/" %}
-          {% set final_href = get_url(path=href) %}
-
-        {# Case 5: external absolute -> leave as-is #}
-        {% elif href | slice(start=0, end=7) == "http://" or href | slice(start=0, end=8) == "https://" %}
-          {% set final_href = href %}
-
-        {# Fallback: treat as relative to home (e.g., "cfp/" or "cfp") #}
+        {% set raw_url = item.url | trim %}
+        
+        <!-- Debug: raw_url is {{ raw_url }} -->
+        
+        {% if raw_url == "#about" %}
+          {% set link_url = base_url ~ "#about" %}
+        {% elif raw_url == "#key-info" %}
+          {% set link_url = base_url ~ "#key-info" %}
+        {% elif raw_url == "#schedule" %}
+          {% set link_url = base_url ~ "#schedule" %}
+        {% elif raw_url == "#confirmed-speakers" %}
+          {% set link_url = base_url ~ "#confirmed-speakers" %}
+        {% elif raw_url == "#organizers" %}
+          {% set link_url = base_url ~ "#organizers" %}
+        {% elif raw_url == "cfp/" %}
+          {% set link_url = base_url ~ "cfp/" %}
+        {% elif raw_url | slice(start=0, end=2) == "@/" %}
+          {% set link_url = get_url(path=raw_url) %}
+        {% elif raw_url | slice(start=0, end=7) == "http://" or raw_url | slice(start=0, end=8) == "https://" %}
+          {% set link_url = raw_url %}
         {% else %}
-          {% if href | slice(start=0, end=1) == "/" %}
-            {% set final_href = home ~ href | slice(start=1) %}
-          {% else %}
-            {% set final_href = home ~ href %}
-          {% endif %}
+          {% set link_url = base_url ~ raw_url %}
         {% endif %}
+        
+        <!-- Debug: link_url is {{ link_url }} -->
 
-        {# Add target+rel only for truly external links #}
-        {% set is_external = final_href | slice(start=0, end=7) == "http://" or final_href | slice(start=0, end=8) == "https://" %}
-        <a class="topbar__link"
-           href="{{ final_href }}"
-           {% if is_external and not (final_href is starting_with(home)) %}target="_blank" rel="noopener noreferrer"{% endif %}>
+        <a class="topbar__link" href="{{ link_url }}">
           {{ item.name }}
         </a>
       {% endfor %}
