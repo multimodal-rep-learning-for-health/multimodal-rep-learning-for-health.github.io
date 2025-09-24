@@ -6,7 +6,7 @@ title = "MRLH @ EurIPS 2025"
 
 <section id="about">
 
-## About
+## About {#about}
 Clinical decision making often draws on multiple diverse data sources including, but not limited to, images, text reports, electronic health records (EHR), continuous physiological signals and genomic profiles and yet most AI systems deployed in healthcare remain unimodal. However, integrating diverse medical modalities presents significant challenges including data heterogeneity, data scarcity, missing or asynchronous modalities, variable data quality and the lack of standardized frameworks for aligned representation learning. This workshop aims to bring the EurIPS community together to tackle the problem of fusing these heterogeneous inputs into interpretable, coherent patient representations, aiming to mirror the holistic reasoning of clinicians.
 We aim to bring together machine learning researchers, clinicians and industry partners dedicated to the theory, methods, and translation of multimodal learning in healthcare.
 
@@ -23,11 +23,11 @@ In this workshop, we aim to:
 
 <section id="key-info">
 
-## Key Info
+## Key Info {#key-info}
 
 ### Important Dates
 
-Our [Call for Papers]({{ get_url(path="@/cfp/_index.md") }}) is now open!
+Our [Call for Papers](@/cfp/_index.md) is now open!
 
 
 
@@ -55,8 +55,7 @@ These include but are not limited to:
 
 <section id="schedule">
 
-## Schedule (Tentative)
-
+## Schedule {#schedule}
 
 | Time        | Session                                  |
 |-------------|-------------------------------------------|
@@ -80,7 +79,7 @@ These include but are not limited to:
 
 <section id="speakers">
 
-## Confirmed Speakers
+## Confirmed Speakers {#confirmed-speakers}
 
 - **Patrick Schwab** - GSK.ai, CH
 - **Sonali Parbhoo** - Imperial College London, UK
@@ -96,7 +95,7 @@ And more to be announced soon!
 
 <section id="organizers">
 
-## Organizers
+## Organizers {#organizers}
 
 - **Stephan Mandt** — Associate Professor, UC Irvine, USA
 - **Ece Ozkan Elsen** - Assistant Professor, University of Basel, CH

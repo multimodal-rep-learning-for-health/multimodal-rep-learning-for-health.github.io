@@ -23,29 +23,15 @@ title = "Multimodal Representation Learning for Healthcare"
 subtitles = ["EurIPS 2025 Workshop"]
 
 # Navbar entries -> anchor links to sections on the same page
-[[extra.header_pages]]
-name = "About"
-url = "#about"
-
-[[extra.header_pages]]
-name = "Key Info"
-url = "#key-info"
-
-[[extra.header_pages]]
-name = "Call for Papers"
-url = "cfp/"
-
-[[extra.header_pages]]
-name = "Schedule"
-url = "#schedule"
-
-[[extra.header_pages]]
-name = "Speakers"
-url = "#speakers"
-
-[[extra.header_pages]]
-name = "Organizers"
-url = "#organizers"
+[extra]
+header_pages = [
+  { name = "About",               url = "#about" },
+  { name = "Key Info",            url = "#key-info" },
+  { name = "Call for Papers",     url = "@/cfp/_index.md" },
+  { name = "Schedule",            url = "#schedule" },
+  { name = "Speakers",            url = "#confirmed-speakers" },
+  { name = "Organizers",          url = "#organizers" }
+]
 
 
 # Banner (you can replace static/banner.svg later)

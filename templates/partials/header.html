@@ -1,15 +1,22 @@
 <header class="topbar">
   <div class="topbar__inner">
-    <a class="topbar__brand" href="#home">
+    {% set home = get_url(path='@/_index.md') %}
+
+    <a class="topbar__brand" href="{{ home }}#home">
       {# Use an SVG/PNG logo in /static if you have one #}
       {# <img src="{{ get_url(path='logo.svg') }}" alt="Workshop logo" class="topbar__logo"> #}
-
       <span class="topbar__title">Multimodal Representation Learning for Healthcare</span>
     </a>
 
     <nav class="topbar__nav">
       {% for item in config.extra.header_pages %}
-      <a class="topbar__link" href="{{ get_url(path=item.url) }}">{{ item.name }}</a>
+        <a class="topbar__link"
+           href="{% if item.url is starting_with('#') %}{{ home }}{{ item.url }}
+                  {% elif item.url is starting_with('http') %}{{ item.url }}
+                  {% else %}{{ get_url(path=item.url) }}
+                  {% endif %}">
+          {{ item.name }}
+        </a>
       {% endfor %}
     </nav>
   </div>
