@@ -5,47 +5,48 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" href="{{ get_url(path = 'main.css') | safe }}">
+    <link rel="stylesheet" href="{{ get_url(path = 'main.css') | safe }}">
 
-        {% set icon = get_image_metadata(path = 'apple-touch-icon.png', allow_missing = true) %}
-        {% if icon %}
-        <link rel="shortcut icon" type="image/x-icon" href="{{ get_url(path = 'favicon.ico') }}">
-        <link rel="apple-touch-icon" href="{{ get_url(path = 'apple-touch-icon.png') }}" type="image/png">
-        {% endif %}
+    {% set icon = get_image_metadata(path = 'apple-touch-icon.png', allow_missing = true) %}
+    {% if icon %}
+    <link rel="shortcut icon" type="image/x-icon" href="{{ get_url(path = 'favicon.ico') }}">
+    <link rel="apple-touch-icon" href="{{ get_url(path = 'apple-touch-icon.png') }}" type="image/png">
+    {% endif %}
 
-        <title>{{ this.title }}</title>
+    <title>{{ this.title }}</title>
 
-        {{ seo::seo(page = this) }}
+    {{ seo::seo(page = this) }}
 
-        {% block head_includes %}{% endblock head_includes %}
-        {% if this.extra.head_includes %}{{ this.extra.head_includes | safe }}{% endif %}
-	<link rel="stylesheet" href="/css/nav.css">
+    {% block head_includes %}{% endblock head_includes %}
+    {% if this.extra.head_includes %}{{ this.extra.head_includes | safe }}{% endif %}
+    <link rel="stylesheet" href="{{ get_url(path=" css/nav.css") }}">
 
-    </head>
 
-    <body>
-	<header class="topbar">
-  	 <div class="topbar__inner">
-          <a class="topbar__brand" href="#home">
-           <!-- <img src="/logo.svg" alt="Workshop logo" class="topbar__logo"> -->
-	   <span class="topbar__title">MRLH@EurIPS 2025</span>
-          </a>
-          <nav class="topbar__nav">
-            {% for item in config.extra.header_pages %}
-             <a class="topbar__link" href="{{ item.url | safe }}">{{ item.name }}</a>
-            {% endfor %}
-          </nav>
-         </div>
-        </header>
+</head>
 
-        {% block nav %}{% endblock nav %}
-        {% block header %}{% endblock header %}
-        {% block main %}{% endblock main %}
-        {% block footer %}{% endblock footer %}
-    </body>
+<body>
+    <header class="topbar">
+        <div class="topbar__inner">
+            <a class="topbar__brand" href="#home">
+                <!-- <img src="/logo.svg" alt="Workshop logo" class="topbar__logo"> -->
+                <span class="topbar__title">MRLH@EurIPS 2025</span>
+            </a>
+            <nav class="topbar__nav">
+                {% for item in config.extra.header_pages %}
+                <a class="topbar__link" href="{{ item.url | safe }}">{{ item.name }}</a>
+                {% endfor %}
+            </nav>
+        </div>
+    </header>
+
+    {% block nav %}{% endblock nav %}
+    {% block header %}{% endblock header %}
+    {% block main %}{% endblock main %}
+    {% block footer %}{% endblock footer %}
+</body>
 
 </html>
