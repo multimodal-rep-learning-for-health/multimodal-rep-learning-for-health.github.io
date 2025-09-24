@@ -32,7 +32,7 @@ url  = "#key-info"
 
 [[extra.header_pages]]
 name = "Call for Papers"
-url  = "@/cfp/_index.md"
+url  = "cfp/"
 
 [[extra.header_pages]]
 name = "Schedule"

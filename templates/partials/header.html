@@ -3,18 +3,45 @@
     {% set home = get_url(path='@/_index.md') %}
 
     <a class="topbar__brand" href="{{ home }}#home">
-      {# Use an SVG/PNG logo in /static if you have one #}
       {# <img src="{{ get_url(path='logo.svg') }}" alt="Workshop logo" class="topbar__logo"> #}
       <span class="topbar__title">Multimodal Representation Learning for Healthcare</span>
     </a>
 
     <nav class="topbar__nav">
       {% for item in config.extra.header_pages %}
+        {# Start with the raw URL #}
+        {% set href = item.url | trim %}
+
+        {# Case 1: fragment-only -> home + fragment #}
+        {% if href | length > 0 and href | slice(start=0, end=1) == "#" %}
+          {% set href = home ~ href %}
+
+        {# Case 2: root-relative fragment like "/#speakers" -> home + "#speakers" #}
+        {% elif href | slice(start=0, end=2) == "/#" %}
+          {% set href = home ~ "#" ~ (href | trim_start_matches(pat="/#")) %}
+
+        {# Case 3: bare "/" -> home #}
+        {% elif href == "/" %}
+          {% set href = home %}
+
+        {# Case 4: Zola path "@/..." -> resolve with get_url #}
+        {% elif href | slice(start=0, end=2) == "@/" %}
+          {% set href = get_url(path=href) %}
+
+        {# Case 5: external absolute -> leave as-is #}
+        {% elif href | slice(start=0, end=7) == "http://" or href | slice(start=0, end=8) == "https://" %}
+          {# no-op #}
+
+        {# Fallback: treat as relative to home (e.g., "cfp/" or "cfp") #}
+        {% else %}
+          {% set href = home ~ (href | trim_start_matches(pat="/")) %}
+        {% endif %}
+
+        {# Add target+rel only for truly external links #}
+        {% set is_external = href | slice(start=0, end=7) == "http://" or href | slice(start=0, end=8) == "https://" %}
         <a class="topbar__link"
-           href="{% if item.url is starting_with('#') %}{{ home }}{{ item.url }}
-                  {% elif item.url is starting_with('http') %}{{ item.url }}
-                  {% else %}{{ get_url(path=item.url) }}
-                  {% endif %}">
+           href="{{ href }}"
+           {% if is_external and not (href is starting_with(home)) %}target="_blank" rel="noopener noreferrer"{% endif %}>
           {{ item.name }}
         </a>
       {% endfor %}
