@@ -27,7 +27,9 @@ In this workshop, we aim to:
 
 ### Important Dates
 
-Our [Call for Papers](/cfp/) is now open!
+Our [Call for Papers]({% link path="@/cfp/_index.md" %}) is now open!
+
+
 
 Please note all deadlines are Anywhere on Earth (AOE).
 

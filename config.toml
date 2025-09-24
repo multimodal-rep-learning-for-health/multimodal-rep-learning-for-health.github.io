@@ -25,27 +25,27 @@ subtitles = ["EurIPS 2025 Workshop"]
 # Navbar entries -> anchor links to sections on the same page
 [[extra.header_pages]]
 name = "About"
-url = "/#about"
+url = "#about"
 
 [[extra.header_pages]]
 name = "Key Info"
-url = "/#key-info"
+url = "#key-info"
 
 [[extra.header_pages]]
 name = "Call for Papers"
-url = "/cfp/"
+url = "cfp/"
 
 [[extra.header_pages]]
 name = "Schedule"
-url = "/#schedule"
+url = "#schedule"
 
 [[extra.header_pages]]
 name = "Speakers"
-url = "/#speakers"
+url = "#speakers"
 
 [[extra.header_pages]]
 name = "Organizers"
-url = "/#organizers"
+url = "#organizers"
 
 
 # Banner (you can replace static/banner.svg later)

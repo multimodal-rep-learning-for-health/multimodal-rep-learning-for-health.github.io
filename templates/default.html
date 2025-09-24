@@ -23,7 +23,7 @@
 
     {% block head_includes %}{% endblock head_includes %}
     {% if this.extra.head_includes %}{{ this.extra.head_includes | safe }}{% endif %}
-    <link rel="stylesheet" href="{{ get_url(path=" css/nav.css") }}">
+    <link rel="stylesheet" href="{{ get_url(path="css/nav.css") }}">
 
 
 </head>
@@ -32,7 +32,8 @@
     <header class="topbar">
         <div class="topbar__inner">
             <a class="topbar__brand" href="#home">
-                <!-- <img src="/logo.svg" alt="Workshop logo" class="topbar__logo"> -->
+                <!-- <img src="{{ get_url(path='logo.svg') }}" alt="Workshop logo" class="topbar__logo"> -->
+
                 <span class="topbar__title">MRLH@EurIPS 2025</span>
             </a>
             <nav class="topbar__nav">
