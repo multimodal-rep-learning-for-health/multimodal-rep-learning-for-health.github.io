@@ -27,7 +27,8 @@ In this workshop, we aim to:
 
 ### Important Dates
 
-Our [Call for Papers]({% link path="@/cfp/_index.md" %}) is now open!
+Our [Call for Papers]({{ get_url(path="@/cfp/_index.md") }}) is now open!
+
 
 
 
