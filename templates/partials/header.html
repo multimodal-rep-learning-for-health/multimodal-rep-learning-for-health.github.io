@@ -1,6 +1,6 @@
 <header class="topbar">
   <div class="topbar__inner">
-    {% set home = get_url(path='@/_index.md') %}
+    {% set home = config.base_url %}
 
     <a class="topbar__brand" href="{{ home }}#home">
       {# <img src="{{ get_url(path='logo.svg') }}" alt="Workshop logo" class="topbar__logo"> #}
@@ -18,7 +18,7 @@
 
         {# Case 2: root-relative fragment like "/#speakers" -> home + "#speakers" #}
         {% elif href | slice(start=0, end=2) == "/#" %}
-          {% set href = home ~ "#" ~ href | slice(start=2) %}
+          {% set href = home ~ href | slice(start=1) %}
 
         {# Case 3: bare "/" -> home #}
         {% elif href == "/" %}
@@ -34,7 +34,11 @@
 
         {# Fallback: treat as relative to home (e.g., "cfp/" or "cfp") #}
         {% else %}
-          {% set href = home ~ href | trim_start_matches(pat="/") %}
+          {% if href | slice(start=0, end=1) == "/" %}
+            {% set href = home ~ href | slice(start=1) %}
+          {% else %}
+            {% set href = home ~ href %}
+          {% endif %}
         {% endif %}
 
         {# Add target+rel only for truly external links #}
