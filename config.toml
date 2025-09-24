@@ -1,4 +1,8 @@
-base_url = "https://multimodal-rep-learning-for-health.github.io/"
+#base_url = "https://multimodal-rep-learning-for-health.github.io/"
+# config.toml
+base_url = "https://multimodal-rep-learning-for-health.github.io/mrlh-eurips-2025.github.io/"
+compile_sass = true  # keep if your theme uses Sass
+
 title = "Multimodal Representation Learning for Healthcare (Eurips 2025 Workshop)"
 description = "Official website for the Eurips 2025 workshop on multimodal representation learning in healthcare."
 default_language = "en"
