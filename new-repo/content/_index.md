@@ -17,7 +17,6 @@ In this workshop, we aim to:
 - Address robustness, fairness, and missing-modality issues unique to healthcare fusion.  
 - Foster clinician–ML collaboration and outline translational paths to deployment.  
 
-</section>
 
 ---
 
@@ -36,8 +35,6 @@ Please note all deadlines are Anywhere on Earth (AOE).
 - **Acceptance Notification:** October 31, 2025 
 - **Workshop Date:** December 6/7, 2025 (TBC)
 
-
-</section>
 
 ---
 
@@ -76,7 +73,6 @@ All accepted papers will be published on the website. Please note that there wil
 | 16:30-16:50 | Open Q&A                                  |
 | 16:50-17:00 | Closing Remarks & Awards                  |
 
-</section>
 
 ---
 
@@ -92,7 +88,6 @@ All accepted papers will be published on the website. Please note that there wil
 And more to be announced soon!
 
 
-</section>
 
 ---
 
@@ -111,5 +106,4 @@ And more to be announced soon!
 ### Contact
 - General inquiries: <mmrl4h@gmail.com>
 
-</section>
 
