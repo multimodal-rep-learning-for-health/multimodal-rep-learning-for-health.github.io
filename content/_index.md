@@ -55,7 +55,7 @@ These include but are not limited to:
 
 <section id="schedule">
 
-## Schedule {#schedule}
+## Preliminary Schedule {#schedule}
 
 | Time        | Session                                  |
 |-------------|-------------------------------------------|
@@ -85,6 +85,7 @@ These include but are not limited to:
 - **Sonali Parbhoo** - Imperial College London, UK
 - **Stephanie Hyland** - Microsoft Research, UK
 - **Rajesh Ranganath** - New York University, USA
+- **Bianca Dumitrascu** - Columbia University, USA
 
 And more to be announced soon!
 
@@ -101,12 +102,12 @@ And more to be announced soon!
 - **Ece Ozkan Elsen** - Assistant Professor, University of Basel, CH
 - **Samuel Ruiperez-Campillo** - PhD Student, ETH Zurich, CH
 - **Thomas Sutter** - Postdoctoral Researcher, ETH Zurich, CH
-- **Julia Vogt** - Assistant Professor, ETH Zurich, CH
+- **Julia Vogt** - Associate Professor, ETH Zurich, CH
 - **Nikita Narayanan** - PhD Student, Imperial College London, UK
 
 
 ### Contact
-- General inquiries: <email@domain>
+- General inquiries: <mmrl4h@gmail.com>
 
 </section>
 
