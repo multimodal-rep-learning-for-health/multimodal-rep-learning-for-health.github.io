@@ -79,18 +79,97 @@ All accepted papers will be published on the website. Please note that there wil
 </section>
 
 ---
-
 <section id="speakers">
 
 ## Confirmed Speakers {#confirmed-speakers}
 
-- **Patrick Schwab** - GSK.ai, CH
-- **Sonali Parbhoo** - Imperial College London, UK
-- **Stephanie Hyland** - Microsoft Research, UK
-- **Rajesh Ranganath** - New York University, USA
-- **Bianca Dumitrascu** - Columbia University, USA
+<style>
+.speaker-grid {
+    display: grid;
+    gap: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    /* Mobile first: single column */
+    grid-template-columns: 1fr;
+}
 
-And more to be announced soon!
+.speaker-item {
+    text-align: center;
+    margin: 0 1rem;
+}
+
+.speaker-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 1rem auto;
+    display: block;
+}
+
+/* Tablet: 2 columns */
+@media (min-width: 600px) {
+    .speaker-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Desktop: 3 columns for 5 speakers with centered bottom row */
+@media (min-width: 900px) {
+    .speaker-grid {
+        grid-template-columns: repeat(6, 1fr);
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .speaker-item:nth-child(1) { grid-column: 1 / 3; }
+    .speaker-item:nth-child(2) { grid-column: 3 / 5; }
+    .speaker-item:nth-child(3) { grid-column: 5 / 7; }
+    .speaker-item:nth-child(4) { grid-column: 2 / 4; }
+    .speaker-item:nth-child(5) { grid-column: 4 / 6; }
+    
+    .speaker-img {
+        width: 180px;
+        height: 180px;
+    }
+}
+
+/* Very wide screens: still maintain the same layout but with better spacing */
+@media (min-width: 1400px) {
+    .speaker-grid {
+        gap: 3rem;
+    }
+}
+</style>
+
+<div class="speaker-grid">
+    <div class="speaker-item">
+        <img src="patrick-schwab.jpg" alt="Patrick Schwab" class="speaker-img">
+        <h4>Patrick Schwab</h4>
+        <p class="text-muted">GSK.ai, CH</p>
+    </div>
+    <div class="speaker-item">
+        <img src="sonali-parbhoo.jpg" alt="Sonali Parbhoo" class="speaker-img">
+        <h4>Sonali Parbhoo</h4>
+        <p class="text-muted">Imperial College London, UK</p>
+    </div>
+    <div class="speaker-item">
+        <img src="stephanie-hyland.jpg" alt="Stephanie Hyland" class="speaker-img">
+        <h4>Stephanie Hyland</h4>
+        <p class="text-muted">Microsoft Research, UK</p>
+    </div>
+    <div class="speaker-item">
+        <img src="rajesh-ranganath.jpg" alt="Rajesh Ranganath" class="speaker-img">
+        <h4>Rajesh Ranganath</h4>
+        <p class="text-muted">New York University, USA</p>
+    </div>
+    <div class="speaker-item">
+        <img src="bianca-dumitrascu.jpg" alt="Bianca Dumitrascu" class="speaker-img">
+        <h4>Bianca Dumitrascu</h4>
+        <p class="text-muted">Columbia University, USA</p>
+    </div>
+</div>
 
 
 </section>
