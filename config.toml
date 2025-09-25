@@ -17,7 +17,6 @@ theme = "academic-workshop"
 highlight_code = true
 
 [extra]
-image = {resize = 400, ext = '.jpg'}
 # Hero header (use block tables instead of inline)
 [extra.title]
 title = "Multimodal Representation Learning for Healthcare"
