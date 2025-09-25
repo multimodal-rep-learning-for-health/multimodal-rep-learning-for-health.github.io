@@ -27,9 +27,7 @@ In this workshop, we aim to:
 
 ### Important Dates
 
-Our [Call for Papers](@/cfp/_index.md) is now open!
-
-
+Our [Call for Papers](#call-for-papers) is now open!
 
 
 Please note all deadlines are Anywhere on Earth (AOE).
@@ -38,21 +36,26 @@ Please note all deadlines are Anywhere on Earth (AOE).
 - **Acceptance Notification:** October 31, 2025 
 - **Workshop Date:** December 6/7, 2025 (TBC)
 
-### Topics of Interest
-
-These include but are not limited to:
-
-- Vision-language models for Radiology
-- Temporal alignment of multimodal ICU streams
-- Graph and Transformer architectures for patient data fusion
-- Cross-modal self-supervised objectives
-- Multi-modal benchmarks, fairness and bias analysis
-
 
 </section>
 
 ---
 
+## Call for Papers {#call-for-papers}
+
+Authors are invited to submit 4-page abstracts on topics relevant to multimodal representation learning in healthcare. These include, but are not limited to, vision-language models for radiology, temporal alignment of multimodal ICU streams, graph and transformer architectures for patient data fusion, cross-modal self-supervised objectives, and multimodal benchmarks with fairness and bias analysis.
+
+### Submission
+
+- **Submission site:** via [OpenReview (to be updated)](https://openreview.net/)
+- **Format:** [NeurIPS 2025 template](https://media.neurips.cc/Conferences/NeurIPS2025/Styles.zip)
+- **Length:** max 4 pages excluding references
+- **Review:** Double-blind
+- **Anonymization:** Required, ensure that there are no names or affiliations in all parts of the submission including any code.
+
+All accepted papers will be published on the website. Please note that there will be no workshop proceedings (non-archival).
+
+---
 <section id="schedule">
 
 ## Tentative Schedule {#schedule}
