@@ -1,0 +1,56 @@
+#base_url = "https://multimodal-rep-learning-for-health.github.io/"
+# config.toml
+base_url = "https://multimodal-rep-learning-for-health.github.io/"
+compile_sass = true
+minify_html = true
+
+#base_url = "https://multimodal-rep-learning-for-health.github.io/"
+
+title = "Multimodal Representation Learning for Healthcare (Eurips 2025 Workshop)"
+description = "Official website for the Eurips 2025 workshop on multimodal representation learning in healthcare."
+default_language = "en"
+#compile_sass = true
+#minify_html = true
+theme = "academic-workshop"
+
+[markdown]
+highlight_code = true
+
+[extra]
+# Hero header (use block tables instead of inline)
+[extra.title]
+title = "Multimodal Representation Learning for Healthcare"
+subtitles = ["EurIPS 2025 Workshop"]
+
+[[extra.header_pages]]
+name = "About"
+url  = "#about"
+
+[[extra.header_pages]]
+name = "Key Info"
+url  = "#key-info"
+
+[[extra.header_pages]]
+name = "Call for Papers"
+url  = "cfp/"
+
+[[extra.header_pages]]
+name = "Schedule"
+url  = "#schedule"
+
+[[extra.header_pages]]
+name = "Speakers"
+url  = "#confirmed-speakers"
+
+[[extra.header_pages]]
+name = "Organizers"
+url  = "#organizers"
+
+
+
+# Banner (you can replace static/banner.svg later)
+[extra.banner]
+extension = "svg"
+size = "fixed"
+fade = true
+

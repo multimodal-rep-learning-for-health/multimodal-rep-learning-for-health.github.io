@@ -1,0 +1,22 @@
+<header class="topbar">
+  <div class="topbar__inner">
+    {% set base_url = config.base_url %}
+    {% if not base_url is ending_with("/") %}
+      {% set base_url = base_url ~ "/" %}
+    {% endif %}
+
+    <a class="topbar__brand" href="{{ base_url }}#home">
+      {# <img src="{{ get_url(path='logo.svg') }}" alt="Workshop logo" class="topbar__logo"> #}
+      <span class="topbar__title">Multimodal Representation Learning for Healthcare</span>
+    </a>
+
+    <nav class="topbar__nav">
+      <a class="topbar__link" href="{{ base_url }}#about">About</a>
+      <a class="topbar__link" href="{{ base_url }}#key-info">Key Info</a>
+      <a class="topbar__link" href="{{ base_url }}cfp/">Call for Papers</a>
+      <a class="topbar__link" href="{{ base_url }}#schedule">Schedule</a>
+      <a class="topbar__link" href="{{ base_url }}#confirmed-speakers">Speakers</a>
+      <a class="topbar__link" href="{{ base_url }}#organizers">Organizers</a>
+    </nav>
+  </div>
+</header>
