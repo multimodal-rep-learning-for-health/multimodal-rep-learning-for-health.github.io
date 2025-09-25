@@ -1,10 +1,10 @@
 #base_url = "https://multimodal-rep-learning-for-health.github.io/"
 # config.toml
-base_url = "https://multimodal-rep-learning-for-health.github.io/"
+base_url = "https://multimodal-rep-learning-for-health.github.io/multimodal-rep-learning-for-health.github.io/"
 compile_sass = true
 minify_html = true
 
-#base_url = "https://multimodal-rep-learning-for-health.github.io/"
+#base_url = "https://multimodal-rep-learning-for-health.github.io/multimodal-rep-learning-for-health.github.io/"
 
 title = "Multimodal Representation Learning for Healthcare (Eurips 2025 Workshop)"
 description = "Official website for the Eurips 2025 workshop on multimodal representation learning in healthcare."
