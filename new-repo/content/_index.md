@@ -101,7 +101,7 @@ And more to be announced soon!
 - **Ece Ozkan Elsen** - Assistant Professor, University of Basel, CH
 - **Samuel Ruiperez-Campillo** - PhD Student, ETH Zurich, CH
 - **Thomas Sutter** - Postdoctoral Researcher, ETH Zurich, CH
-- **Julia Vogt** - Assistant Professor, ETH Zurich, CH
+- **Julia Vogt** - Associate Professor, ETH Zurich, CH
 - **Nikita Narayanan** - PhD Student, Imperial College London, UK
 
 
