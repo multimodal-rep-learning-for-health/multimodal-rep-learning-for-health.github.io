@@ -101,16 +101,26 @@ And more to be announced soon!
 
 ## Organizers {#organizers}
 
-- **Stephan Mandt** — Associate Professor, UC Irvine, USA
-- **Ece Ozkan Elsen** - Assistant Professor, University of Basel, CH
-- **Samuel Ruiperez-Campillo** - PhD Student, ETH Zurich, CH
-- **Thomas Sutter** - Postdoctoral Researcher, ETH Zurich, CH
-- **Julia Vogt** - Associate Professor, ETH Zurich, CH
-- **Nikita Narayanan** - PhD Student, Imperial College London, UK
-
+{{ grid(
+    text=[
+        ["Stephan Mandt", "Associate Professor, UC Irvine, USA"],
+        ["Ece Ozkan Elsen", "Assistant Professor, University of Basel, CH"],
+        ["Samuel Ruiperez-Campillo", "PhD Student, ETH Zurich, CH"],
+        ["Thomas Sutter", "Postdoctoral Researcher, ETH Zurich, CH"],
+        ["Julia Vogt", "Associate Professor, ETH Zurich, CH"],
+        ["Nikita Narayanan", "PhD Student, Imperial College London, UK"]
+    ],
+    images=[
+        "stephan-mandt.jpg",
+        "ece-ozkan-elsen.jpg", 
+        "samuel-ruiperez-campillo.jpg",
+        "thomas-sutter.jpg",
+        "julia-vogt.jpg",
+        "nikita-narayanan.jpg"
+    ]
+) }}
 
 ### Contact
 - General inquiries: <mmrl4h@gmail.com>
 
 </section>
-
