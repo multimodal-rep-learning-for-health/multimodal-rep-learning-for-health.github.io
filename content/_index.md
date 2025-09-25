@@ -103,29 +103,55 @@ And more to be announced soon!
 
 <style>
 .organizer-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 2rem;
-  margin-top: 3rem;
-  margin-bottom: 2rem;
+    display: grid;
+    gap: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    /* Mobile first: single column */
+    grid-template-columns: 1fr;
 }
+
 .organizer-item {
-  text-align: center;
-  margin: 0 1rem;
+    text-align: center;
+    margin: 0 1rem;
 }
+
 .organizer-img {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin: 0 auto 1rem auto;
-  display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 1rem auto;
+    display: block;
 }
-@media (min-width: 768px) {
-  .organizer-img {
-    width: 180px;
-    height: 180px;
-  }
+
+/* Tablet: 2 columns */
+@media (min-width: 600px) {
+    .organizer-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Desktop: 3 columns (3x2 layout for 6 items) */
+@media (min-width: 900px) {
+    .organizer-grid {
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .organizer-img {
+        width: 180px;
+        height: 180px;
+    }
+}
+
+/* Very wide screens: still maintain 3 columns but with better spacing */
+@media (min-width: 1400px) {
+    .organizer-grid {
+        gap: 3rem;
+    }
 }
 </style>
 
