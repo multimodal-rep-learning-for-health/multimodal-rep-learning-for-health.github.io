@@ -98,6 +98,10 @@ All accepted papers will be published on the website. Please note that there wil
     margin: 0 1rem;
 }
 
+.speaker-item .text-muted {
+    text-align: center;
+}
+
 .speaker-img {
     width: 150px;
     height: 150px;
@@ -193,6 +197,10 @@ All accepted papers will be published on the website. Please note that there wil
 .organizer-item {
     text-align: center;
     margin: 0 1rem;
+}
+
+.organizer-item .text-muted {
+    text-align: center;
 }
 
 .organizer-img {
