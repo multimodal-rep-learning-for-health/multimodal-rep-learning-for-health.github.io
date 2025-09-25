@@ -27,7 +27,7 @@ In this workshop, we aim to:
 
 ### Important Dates
 
-Our [Call for Papers](#call-for-papers) is now open!
+Our [Call for Papers](https://openreview.net/) is now open!
 
 
 
