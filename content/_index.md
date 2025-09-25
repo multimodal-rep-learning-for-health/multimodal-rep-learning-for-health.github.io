@@ -1,5 +1,5 @@
 +++
-title = "MMRLH @ EurIPS 2025"
+title = "MMRL4H @ EurIPS 2025"
 +++
 
 ---
@@ -101,24 +101,66 @@ And more to be announced soon!
 
 ## Organizers {#organizers}
 
-{{ grid(
-    text=[
-        ["Stephan Mandt", "Associate Professor, UC Irvine, USA"],
-        ["Ece Ozkan Elsen", "Assistant Professor, University of Basel, CH"],
-        ["Samuel Ruiperez-Campillo", "PhD Student, ETH Zurich, CH"],
-        ["Thomas Sutter", "Postdoctoral Researcher, ETH Zurich, CH"],
-        ["Julia Vogt", "Associate Professor, ETH Zurich, CH"],
-        ["Nikita Narayanan", "PhD Student, Imperial College London, UK"]
-    ],
-    images=[
-        "stephan-mandt.jpg",
-        "ece-ozkan-elsen.jpg", 
-        "samuel-ruiperez-campillo.jpg",
-        "thomas-sutter.jpg",
-        "julia-vogt.jpg",
-        "nikita-narayanan.jpg"
-    ]
-) }}
+<style>
+.organizer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+.organizer-item {
+  text-align: center;
+  margin: 0 1rem;
+}
+.organizer-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 1rem auto;
+  display: block;
+}
+@media (min-width: 768px) {
+  .organizer-img {
+    width: 180px;
+    height: 180px;
+  }
+}
+</style>
+
+<div class="organizer-grid">
+    <div class="organizer-item">
+        <img src="stephan-mandt.jpg" alt="Stephan Mandt" class="organizer-img">
+        <h4>Stephan Mandt</h4>
+        <p class="text-muted">Associate Professor, UC Irvine, USA</p>
+    </div>
+    <div class="organizer-item">
+        <img src="ece-ozkan-elsen.jpg" alt="Ece Ozkan Elsen" class="organizer-img">
+        <h4>Ece Ozkan Elsen</h4>
+        <p class="text-muted">Assistant Professor, University of Basel, CH</p>
+    </div>
+    <div class="organizer-item">
+        <img src="samuel-ruiperez-campillo.jpg" alt="Samuel Ruiperez-Campillo" class="organizer-img">
+        <h4>Samuel Ruiperez-Campillo</h4>
+        <p class="text-muted">PhD Student, ETH Zurich, CH</p>
+    </div>
+    <div class="organizer-item">
+        <img src="thomas-sutter.jpg" alt="Thomas Sutter" class="organizer-img">
+        <h4>Thomas Sutter</h4>
+        <p class="text-muted">Postdoctoral Researcher, ETH Zurich, CH</p>
+    </div>
+    <div class="organizer-item">
+        <img src="julia-vogt.jpg" alt="Julia Vogt" class="organizer-img">
+        <h4>Julia Vogt</h4>
+        <p class="text-muted">Associate Professor, ETH Zurich, CH</p>
+    </div>
+    <div class="organizer-item">
+        <img src="nikita-narayanan.jpg" alt="Nikita Narayanan" class="organizer-img">
+        <h4>Nikita Narayanan</h4>
+        <p class="text-muted">PhD Student, Imperial College London, UK</p>
+    </div>
+</div>
 
 ### Contact
 - General inquiries: <mmrl4h@gmail.com>
