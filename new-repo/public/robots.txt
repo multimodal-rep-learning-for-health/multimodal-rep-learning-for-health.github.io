@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-Allow: /
-Sitemap: https://multimodal-rep-learning-for-health.github.io/multimodal-rep-learning-for-health.github.io/sitemap.xml
