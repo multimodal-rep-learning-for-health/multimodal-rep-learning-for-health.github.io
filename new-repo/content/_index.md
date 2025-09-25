@@ -1,5 +1,5 @@
 +++
-title = "MRLH @ EurIPS 2025"
+title = "MMRLH @ EurIPS 2025"
 +++
 
 ---
@@ -55,7 +55,7 @@ These include but are not limited to:
 
 <section id="schedule">
 
-## Schedule {#schedule}
+## Tentative Schedule {#schedule}
 
 | Time        | Session                                  |
 |-------------|-------------------------------------------|
@@ -85,7 +85,7 @@ These include but are not limited to:
 - **Sonali Parbhoo** - Imperial College London, UK
 - **Stephanie Hyland** - Microsoft Research, UK
 - **Rajesh Ranganath** - New York University, USA
-
+- **Bianca Dumitrascu** - Columbia University, USA
 And more to be announced soon!
 
 
@@ -106,7 +106,7 @@ And more to be announced soon!
 
 
 ### Contact
-- General inquiries: <email@domain>
+- General inquiries: <mmrl4h@gmail.com>
 
 </section>
 
