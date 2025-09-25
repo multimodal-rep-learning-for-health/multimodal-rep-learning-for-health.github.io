@@ -101,24 +101,18 @@ And more to be announced soon!
 
 ## Organizers {#organizers}
 
-{{ grid(
-    text=[
-        ["Stephan Mandt", "Associate Professor, UC Irvine, USA"],
-        ["Ece Ozkan Elsen", "Assistant Professor, University of Basel, CH"],
-        ["Samuel Ruiperez-Campillo", "PhD Student, ETH Zurich, CH"],
-        ["Thomas Sutter", "Postdoctoral Researcher, ETH Zurich, CH"],
-        ["Julia Vogt", "Associate Professor, ETH Zurich, CH"],
-        ["Nikita Narayanan", "PhD Student, Imperial College London, UK"]
-    ],
-    images=[
-        "stephan-mandt.jpg",
-        "ece-ozkan-elsen.jpg", 
-        "samuel-ruiperez-campillo.jpg",
-        "thomas-sutter.jpg",
-        "julia-vogt.jpg",
-        "nikita-narayanan.jpg"
-    ]
-) }}
+<div class="grid mt-5 mb-4">
+    <div class="text-center mx-3">
+        <img src="stephan-mandt.jpg" alt="Stephan Mandt" class="rounded-circle mx-auto mb-3" width="200" height="200">
+        <h2 class="h4 my-1">Stephan Mandt</h2>
+        <h3 class="h6 my-1">Associate Professor, UC Irvine, USA</h3>
+    </div>
+    <div class="text-center mx-3">
+        <img src="ece-ozkan-elsen.jpg" alt="Ece Ozkan Elsen" class="rounded-circle mx-auto mb-3" width="200" height="200">
+        <h2 class="h4 my-1">Ece Ozkan Elsen</h2>
+        <h3 class="h6 my-1">Assistant Professor, University of Basel, CH</h3>
+    </div>
+</div>
 
 ### Contact
 - General inquiries: <mmrl4h@gmail.com>
