@@ -27,7 +27,7 @@ In this workshop, we aim to:
 
 ### Important Dates
 
-Our [Call for Papers](https://openreview.net/) is now open!
+Our [Call for Papers](https://openreview.net/group?id=EurIPS.cc/2025/Workshop/MMRL4H#tab-your-consoles) is now open!
 
 
 
@@ -46,7 +46,7 @@ Authors are invited to submit 4-page abstracts on topics relevant to multimodal 
 
 ### Submission
 
-- **Submission site:** via [OpenReview (to be updated)](https://openreview.net/)
+- **Submission site:** via [OpenReview](https://openreview.net/group?id=EurIPS.cc/2025/Workshop/MMRL4H#tab-your-consoles)
 - **Format:** [NeurIPS 2025 template](https://media.neurips.cc/Conferences/NeurIPS2025/Styles.zip)
 - **Length:** max 4 pages excluding references
 - **Review:** Double-blind
@@ -63,13 +63,13 @@ All accepted papers will be published on the website. Please note that there wil
 | Time        | Session                                  |
 |-------------|-------------------------------------------|
 | 09:00–09:15 | Opening Remarks                           |
-| 09:15–10:00 | Sonali Parbhoo                            |
+| 09:15–10:00 | Speaker Session I                         |
 | 10:00–10:20 | Spotlight Session I (3x7mins)             |
 | 10:20–11:00 | Coffee & Poster Session I                 |
-| 11:00–11:45 | Patrick Schwab                            |
+| 11:00–11:45 | Speaker Session II                        |
 | 11:45–12:30 | Panel - "Translating Multimodal ML to the Bedside" |
 | 12:30–14:00 | Lunch & Networking                        |
-| 14:00-14:45 | Rajesh Ranganath                          |
+| 14:00-14:45 | Speaker Session III                       |
 | 14:45-15:15 | Spotlight Session II (3x7mins)            |
 | 15:15–15:45 | Coffee & Poster Session II                |
 | 15:45–16:30 | Round-table Discussion                    |
