@@ -34,7 +34,7 @@ Our [Call for Papers](https://openreview.net/group?id=EurIPS.cc/2025/Workshop/MM
 
 Please note all deadlines are Anywhere on Earth (AOE).
 
-- **Submission Deadline:** October 10, 2025
+- **Submission Deadline:** October 15, 2025
 - **Acceptance Notification:** October 31, 2025 
 - **Workshop Date:** December 6/7, 2025 (TBC)
 
