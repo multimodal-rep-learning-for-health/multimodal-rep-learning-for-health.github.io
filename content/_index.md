@@ -36,7 +36,7 @@ Please note all deadlines are Anywhere on Earth (AOE).
 
 - **Submission Deadline:** October 15, 2025
 - **Acceptance Notification:** October 31, 2025 
-- **Workshop Date:** December 6/7, 2025 (TBC)
+- **Workshop Date:** December 6, 2025
 
 ---
 
