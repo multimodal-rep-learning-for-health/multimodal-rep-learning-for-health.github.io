@@ -55,6 +55,15 @@ Authors are invited to submit 4-page abstracts on topics relevant to multimodal 
 
 All accepted papers will be published on the website. Please note that there will be no workshop proceedings (non-archival).
 
+### Poster Format
+
+All accepted workshop papers will be presented as physical posters during the MMRL4H@EurIPS 2025 workshop in Copenhagen.
+
+- **Size:** A1
+- **Orientation:** Portrait 
+- **Printing:** Authors are responsible for printing and bringing their posters
+- **Poster sessions:** Provide opportunities for in-depth discussion and networking with attendees and invited speakers
+
 ---
 
 <section id="schedule">
