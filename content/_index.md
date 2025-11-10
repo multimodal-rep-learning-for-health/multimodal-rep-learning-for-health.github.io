@@ -37,6 +37,7 @@ Please note all deadlines are Anywhere on Earth (AOE).
 - **Submission Deadline:** October 15, 2025
 - **Acceptance Notification:** October 31, 2025 
 - **Workshop Date:** December 6, 2025
+- **Camera-Ready Submission Deadline:** November 15, 2025
 
 ---
 
