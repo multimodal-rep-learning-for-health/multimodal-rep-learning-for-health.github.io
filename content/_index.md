@@ -99,7 +99,6 @@ All accepted workshop papers will be presented as physical posters during the MM
     gap: 2rem;
     margin-top: 3rem;
     margin-bottom: 2rem;
-    /* Mobile first: single column */
     grid-template-columns: 1fr;
 }
 
@@ -128,20 +127,14 @@ All accepted workshop papers will be presented as physical posters during the MM
     }
 }
 
-/* Desktop: 3 columns for 5 speakers with centered bottom row */
+/* Desktop: 3x2 layout */
 @media (min-width: 900px) {
     .speaker-grid {
-        grid-template-columns: repeat(6, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         max-width: 1200px;
         margin-left: auto;
         margin-right: auto;
     }
-    
-    .speaker-item:nth-child(1) { grid-column: 1 / 3; }
-    .speaker-item:nth-child(2) { grid-column: 3 / 5; }
-    .speaker-item:nth-child(3) { grid-column: 5 / 7; }
-    .speaker-item:nth-child(4) { grid-column: 2 / 4; }
-    .speaker-item:nth-child(5) { grid-column: 4 / 6; }
     
     .speaker-img {
         width: 180px;
@@ -149,7 +142,7 @@ All accepted workshop papers will be presented as physical posters during the MM
     }
 }
 
-/* Very wide screens: still maintain the same layout but with better spacing */
+/* Very wide screens: spacing only */
 @media (min-width: 1400px) {
     .speaker-grid {
         gap: 3rem;
@@ -159,9 +152,9 @@ All accepted workshop papers will be presented as physical posters during the MM
 
 <div class="speaker-grid">
     <div class="speaker-item">
-        <img src="patrick-schwab.jpg" alt="Patrick Schwab" class="speaker-img">
-        <h4>Patrick Schwab</h4>
-        <p class="text-muted">GSK.ai, CH</p>
+        <img src="desmond.jpg" alt="Desmond Elliott" class="speaker-img">
+        <h4>Desmond Elliott</h4>
+        <p class="text-muted">University of Copenhagen, DK</p>
     </div>
     <div class="speaker-item">
         <img src="sonali-parbhoo.jpg" alt="Sonali Parbhoo" class="speaker-img">
@@ -183,8 +176,12 @@ All accepted workshop papers will be presented as physical posters during the MM
         <h4>Bianca Dumitrascu</h4>
         <p class="text-muted">Columbia University, USA</p>
     </div>
+    <div class="speaker-item">
+        <img src="gunnar.jpg" alt="Gunnar Rätsch" class="speaker-img">
+        <h4>Gunnar Rätsch</h4>
+        <p class="text-muted">ETH Zurich, CH</p>
+    </div>
 </div>
-
 
 </section>
 
@@ -260,7 +257,7 @@ All accepted workshop papers will be presented as physical posters during the MM
     </div>
     <div class="organizer-item">
         <img src="ece-ozkan-elsen.jpg" alt="Ece Ozkan Elsen" class="organizer-img">
-        <h4>Ece Ozkan Elsen</h4>
+        <h4>Ece Özkan Elsen</h4>
         <p class="text-muted">Assistant Professor, University of Basel, CH</p>
     </div>
     <div class="organizer-item">
