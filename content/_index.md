@@ -67,72 +67,89 @@ All accepted workshop papers will be presented as physical posters during the MM
 ## Accepted Workshop Papers
 
 1. **EmoSLLM: Parameter-Efficient Adaptation of LLMs for Speech Emotion Recognition**  
-   by Hugo Thimonier, Antony Perzo, Renaud Seguier   
-   [PDF](/papers/4_EmoSLLM_Parameter_Efficient_.pdf) · [OpenReview](https://openreview.net/forum?id=huMNytWWaq)
+   by Hugo Thimonier, Antony Perzo, Renaud Seguier  
+   [PDF](/papers/4_EmoSLLM_Parameter_Efficient_.pdf) · [OpenReview](https://openreview.net/forum?id=huMNytWWaq)  
+   <br>
 
 2. **Position: Real-World Clinical AI Requires Multimodal, Longitudinal, and Privacy-Preserving Corpora**  
-   by Azmine Toushik Wasi, Shahriyar Zaman Ridoy   
-   [PDF](/papers/5_Position_Real_World_Clinical.pdf) · [OpenReview](https://openreview.net/forum?id=wHW1MlCE90)
+   by Azmine Toushik Wasi, Shahriyar Zaman Ridoy  
+   [PDF](/papers/5_Position_Real_World_Clinical.pdf) · [OpenReview](https://openreview.net/forum?id=wHW1MlCE90)  
+   <br>
 
 3. **When are radiology reports useful for training medical image classifiers?**  
-   by Herman Bergström, Zhongqi Yue, Fredrik D. Johansson 
-   [PDF](/papers/7_When_are_radiology_reports_u.pdf) · [OpenReview](https://openreview.net/forum?id=aBblDBvaSn)
+   by Herman Bergström, Zhongqi Yue, Fredrik D. Johansson  
+   [PDF](/papers/7_When_are_radiology_reports_u.pdf) · [OpenReview](https://openreview.net/forum?id=aBblDBvaSn)  
+   <br>
 
 4. **MIND: Multimodal Integration with Neighbourhood-aware Distributions**  
-   by Hanwen Xing, Christopher Yau    
-   [PDF](/papers/9_MIND_Multimodal_Integration_.pdf) · [OpenReview](https://openreview.net/forum?id=bbC0WJe2uB)
+   by Hanwen Xing, Christopher Yau  
+   [PDF](/papers/9_MIND_Multimodal_Integration_.pdf) · [OpenReview](https://openreview.net/forum?id=bbC0WJe2uB)  
+   <br>
 
 5. **NAP: Attention-Based Late Fusion for Automatic Sleep Staging**  
-   by Alvise Dei Rossi, Julia van der Meer, Markus Schmidt, Claudio L. A. Bassetti, Luigi Fiorillo, Francesca D. Faraci   
-   [PDF](/papers/10_NAP_Attention_Based_Late_Fu.pdf) · [OpenReview](https://openreview.net/forum?id=hvdb2DDD0G)
+   by Alvise Dei Rossi, Julia van der Meer, Markus Schmidt, Claudio L. A. Bassetti, Luigi Fiorillo, Francesca D. Faraci  
+   [PDF](/papers/10_NAP_Attention_Based_Late_Fu.pdf) · [OpenReview](https://openreview.net/forum?id=hvdb2DDD0G)  
+   <br>
 
 6. **Are Large Vision Language Models Truly Grounded in Medical Images? Evidence from Italian Clinical Visual Question Answering**  
-   by Federico Felizzi, Olivia Riccomi, Michele Ferramola, Francesco Andrea Causio, Manuel Del Medico, De Vita Vittorio, Lorenzo De Mori, Alessandra Piscitelli, Pietro Eric Risuleo, Bianca Destro Castaniti, Antonio Cristiano, Alessia Longo, Luigi De Angelis, Mariapia Vassalli, Marcello Di Pumpo
-   [PDF](/papers/11_Are_Large_Vision_Language_M.pdf) · [OpenReview](https://openreview.net/forum?id=VAeCoslS0v)
+   by Federico Felizzi, Olivia Riccomi, Michele Ferramola, Francesco Andrea Causio, Manuel Del Medico, De Vita Vittorio, Lorenzo De Mori, Alessandra Piscitelli, Pietro Eric Risuleo, Bianca Destro Castaniti, Antonio Cristiano, Alessia Longo, Luigi De Angelis, Mariapia Vassalli, Marcello Di Pumpo  
+   [PDF](/papers/11_Are_Large_Vision_Language_M.pdf) · [OpenReview](https://openreview.net/forum?id=VAeCoslS0v)  
+   <br>
 
 7. **Multimodal Alignment for Synthetic Clinical Time Series**  
-   by Arinbjörn Kolbeinsson, Benedikt Kolbeinsson   
-   [PDF](/papers/12_Multimodal_Alignment_for_Sy.pdf) · [OpenReview](https://openreview.net/forum?id=OrbfmFx1G8)
+   by Arinbjörn Kolbeinsson, Benedikt Kolbeinsson  
+   [PDF](/papers/12_Multimodal_Alignment_for_Sy.pdf) · [OpenReview](https://openreview.net/forum?id=OrbfmFx1G8)  
+   <br>
 
 8. **iMML: A Python package for multi-modal learning with incomplete data**  
-   by Alberto López, John Zobolas, Tanguy Dumontier, Tero Aittokallio
-   [PDF](/papers/13_iMML_A_Python_package_for_m.pdf) · [OpenReview](https://openreview.net/forum?id=3oKPXETzXl)
+   by Alberto López, John Zobolas, Tanguy Dumontier, Tero Aittokallio  
+   [PDF](/papers/13_iMML_A_Python_package_for_m.pdf) · [OpenReview](https://openreview.net/forum?id=3oKPXETzXl)  
+   <br>
 
 9. **POEMS: Product of Experts for Interpretable Multi-omic Integration using Sparse Decoding**  
-   by Mihriban Kocak Balik, Pekka Marttinen, Negar Safinianaini 
-   [PDF](/papers/15_POEMS_Product_of_Experts_fo.pdf) · [OpenReview](https://openreview.net/forum?id=a0t1xOMK5k)
+   by Mihriban Kocak Balik, Pekka Marttinen, Negar Safinianaini  
+   [PDF](/papers/15_POEMS_Product_of_Experts_fo.pdf) · [OpenReview](https://openreview.net/forum?id=a0t1xOMK5k)  
+   <br>
 
 10. **Multi-Omic Transfer Learning for the Diagnosis & Prognosis of Blood Cancers**  
-    by Leonardo P.A. Biral, Sandeep Dave
-    [PDF](/papers/17_Multi_Omic_Transfer_Learnin.pdf) · [OpenReview](https://openreview.net/forum?id=DVsWo3rO4S)
+    by Leonardo P.A. Biral, Sandeep Dave  
+    [PDF](/papers/17_Multi_Omic_Transfer_Learnin.pdf) · [OpenReview](https://openreview.net/forum?id=DVsWo3rO4S)  
+    <br>
 
 11. **From Binning to Joint Embeddings: Robust Numeric Integration for EHR Transformers**  
-    by Maria Elkjær Montgomery, Mads Nielsen
-    [PDF](/papers/18_From_Binning_to_Joint_Embed.pdf) · [OpenReview](https://openreview.net/forum?id=d8SkqF1zQb)
+    by Maria Elkjær Montgomery, Mads Nielsen  
+    [PDF](/papers/18_From_Binning_to_Joint_Embed.pdf) · [OpenReview](https://openreview.net/forum?id=d8SkqF1zQb)  
+    <br>
 
 12. **A tutorial on discovering and quantifying the effect of latent causal sources of multimodal EHR data**  
-    by Marco Barbero Mota, Eric Strobl, John M Still, William W. Stead, Thomas A Lasko
-    [PDF](/papers/23_A_tutorial_on_discovering_a.pdf) · [OpenReview](https://openreview.net/forum?id=tGhcYSpSbE)
+    by Marco Barbero Mota, Eric Strobl, John M Still, William W. Stead, Thomas A Lasko  
+    [PDF](/papers/23_A_tutorial_on_discovering_a.pdf) · [OpenReview](https://openreview.net/forum?id=tGhcYSpSbE)  
+    <br>
 
 13. **Multi-Modal AI for Remote Patient Monitoring in Cancer Care**  
-    by Yansong Liu, Ronnie Stafford, Pramit Khetrapal, Huriye Kocadag, Graca Carvalho, Patricia de Winter, Maryam Imran, Amelia Snook, Adamos Hadjivasiliou, D Vijay Anand, Weining Lin, John Kelly, Yukun Zhou, Ivana Drobnjak
-    [PDF](/papers/25_Multi_Modal_AI_for_Remote_P.pdf) · [OpenReview](https://openreview.net/forum?id=cgRAjtKNuD)
+    by Yansong Liu, Ronnie Stafford, Pramit Khetrapal, Huriye Kocadag, Graca Carvalho, Patricia de Winter, Maryam Imran, Amelia Snook, Adamos Hadjivasiliou, D Vijay Anand, Weining Lin, John Kelly, Yukun Zhou, Ivana Drobnjak  
+    [PDF](/papers/25_Multi_Modal_AI_for_Remote_P.pdf) · [OpenReview](https://openreview.net/forum?id=cgRAjtKNuD)  
+    <br>
 
 14. **VenusGT: A Trajectory-Aware Graph Transformer for Rare-Cell Discovery in Single-Cell Multi-Omics**  
-    by Natalia Sikora, Rebecca Rees, Sean Righardt Holm, Hanchi Ren, Lewis W. Francis
-    [PDF](/papers/26_VenusGT_A_Trajectory_Aware_.pdf) · [OpenReview](https://openreview.net/forum?id=kY4V7RhMJB)
+    by Natalia Sikora, Rebecca Rees, Sean Righardt Holm, Hanchi Ren, Lewis W. Francis  
+    [PDF](/papers/26_VenusGT_A_Trajectory_Aware_.pdf) · [OpenReview](https://openreview.net/forum?id=kY4V7RhMJB)  
+    <br>
 
 15. **Virtual Breath-Hold (VBH) for Free-Breathing CT/MRI: Segmentation-Guided Fusion with Image-Signal Alignment**  
-    by Rian Atri
-    [PDF](/papers/27_Virtual_Breath_Hold_VBH_for.pdf) · [OpenReview](https://openreview.net/forum?id=t0iMP2Padt)
+    by Rian Atri  
+    [PDF](/papers/27_Virtual_Breath_Hold_VBH_for.pdf) · [OpenReview](https://openreview.net/forum?id=t0iMP2Padt)  
+    <br>
 
 16. **Towards Multimodal Representation Learning in Paediatric Kidney Disease**  
-    by Ana Durica, John Booth, Ivana Drobnjak
-    [PDF](/papers/28_Towards_Multimodal_Represen.pdf) · [OpenReview](https://openreview.net/forum?id=6YjLQrzuuH)
+    by Ana Durica, John Booth, Ivana Drobnjak  
+    [PDF](/papers/28_Towards_Multimodal_Represen.pdf) · [OpenReview](https://openreview.net/forum?id=6YjLQrzuuH)  
+    <br>
 
 17. **A learning health system in Neurorehabilitation as a foundation for multimodal patient representation**  
-    by Thomas Weikert, Eljas Roellin, Diego Paez-Granados, Chris Easthope Awai
-    [PDF](/papers/29_A_learning_health_system_in.pdf) · [OpenReview](https://openreview.net/forum?id=xHvxgOgF9Q)
+    by Thomas Weikert, Eljas Roellin, Diego Paez-Granados, Chris Easthope Awai  
+    [PDF](/papers/29_A_learning_health_system_in.pdf) · [OpenReview](https://openreview.net/forum?id=xHvxgOgF9Q)  
+    <br>
 
 ---
 
