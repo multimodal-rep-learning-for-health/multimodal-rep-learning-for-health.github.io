@@ -67,6 +67,19 @@ All accepted workshop papers will be presented as physical posters during the MM
 ---
 
 <section id="schedule">
+<style>
+#schedule table td:first-child,
+#schedule table th:first-child {
+    white-space: nowrap;
+    width: 1%;
+}
+
+#schedule table td:nth-child(2),
+#schedule table th:nth-child(2) {
+    white-space: normal;
+}
+</style>
+
 
 ## Preliminary Schedule {#schedule}
 
