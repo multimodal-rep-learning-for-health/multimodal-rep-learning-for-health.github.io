@@ -81,13 +81,13 @@ All accepted workshop papers will be presented as physical posters during the MM
 | 11:00-11:20 | Speaker Session II - Bianca Dumitrascu                        |
 | 11:25-11:45 | Speaker Session II - Rajesh Ranganath                       |
 | 11:45-12:30 | Panel (all speakers) - "Translating Multimodal ML to the Bedside"            |
-| 12:30-14:00 | Lunch & Networking                |
-| 14:00-14:20 | Speaker Session III - Desmond Elliott                    |
-| 14:25-14:45 | Speaker Session III - Stephanie Hyland                                  |
-| 14:45-14:55 | Oral Session II - When are radiology reports useful for training medical image classifiers                |
+| 12:30-14:00 | Lunch & Networking|
+| 14:00-14:20 | Speaker Session III - Desmond Elliott|
+| 14:25-14:45 | Speaker Session III - Stephanie Hyland|
+| 14:45-14:55 | Oral Session II - When are radiology reports useful for training medical image classifiers|
 | 14:55-15:05 | Oral Session II - POEMS: Product of Experts for Interpretable Multi-omic Integration using Sparse Decoding|
-| 15:05-15:45 | Coffee & Poster Session II  |
-| 15:45-16:15 | Open Q&A |
+| 15:05-15:45 | Coffee & Poster Session II|
+| 15:45-16:15 | Open Q&A|
 | 16:15-16:30 | Closing Remarks & Awards |
 
 </section>
