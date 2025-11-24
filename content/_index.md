@@ -72,8 +72,8 @@ All accepted workshop papers will be presented as physical posters during the MM
 
 | Time        | Session                                  |
 |-------------|-------------------------------------------|
-| 09:00–09:15 | Opening Remarks                           |
-| 09:15–9:35  | Speaker Session I - Gunnar Rätsch               |
+| 9:00–9:15   | Opening Remarks                           |
+| 9:15–9:35   | Speaker Session I - Gunnar Rätsch               |
 | 9:40-10:00  | Speaker Session I - Sonali Parbhoo            |
 | 10:00-10:10 | Oral Session I - MIND: Multimodal Integration with Neighbourhood-aware Distributions                 |
 | 10:10-10:20 | Oral Session I - Are Large Vision Language Models Truly Grounded in Medical Images? Evidence from Italian Clinical Visual Question Answering                         |
