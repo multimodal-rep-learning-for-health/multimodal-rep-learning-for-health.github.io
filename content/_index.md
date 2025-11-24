@@ -168,7 +168,7 @@ All accepted workshop papers will be presented as physical posters during the MM
 </style>
 
 
-## Preliminary Schedule {#schedule}
+## Schedule {#schedule}
 
 | Time        | Session                                  |
 |-------------|-------------------------------------------|
