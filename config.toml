@@ -35,6 +35,10 @@ name = "Call for Papers"
 url  = "#call-for-papers"
 
 [[extra.header_pages]]
+name = "Accepted Contributions"
+url  = "#accepted-papers"
+
+[[extra.header_pages]]
 name = "Schedule"
 url  = "#schedule"
 

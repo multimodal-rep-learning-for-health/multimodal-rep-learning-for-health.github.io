@@ -64,7 +64,7 @@ All accepted workshop papers will be presented as physical posters during the MM
 - **Printing:** Authors are responsible for printing and bringing their posters
 - **Poster sessions:** Provide opportunities for in-depth discussion and networking with attendees and invited speakers
 
-## Accepted Workshop Papers
+## Accepted Contributions {#accepted-papers}
 
 1. **EmoSLLM: Parameter-Efficient Adaptation of LLMs for Speech Emotion Recognition**  
    by Hugo Thimonier, Antony Perzo, Renaud Seguier  
