@@ -14,7 +14,9 @@ default_language = "en"
 theme = "academic-workshop"
 
 [markdown]
-highlighting = true
+
+[markdown.highlighting]
+theme = "github-light"
 
 [extra]
 # Hero header (use block tables instead of inline)
