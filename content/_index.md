@@ -388,6 +388,90 @@ All accepted workshop papers will be presented as physical posters during the MM
     </div>
 </div>
 
+---
+
+## Program Committee {#program-committee}
+
+<style>
+.pc-grid {
+    column-count: 1;
+    column-gap: 3rem;
+    margin-top: 1.5rem;
+}
+
+@media (min-width: 900px) {
+    .pc-grid {
+        column-count: 2;
+    }
+}
+
+.pc-member {
+    break-inside: avoid;
+    margin-bottom: 0.4rem;
+}
+
+.pc-member strong {
+    font-weight: 600;
+}
+
+.pc-affiliation {
+    color: #666;
+}
+</style>
+<div class="pc-grid">
+
+<div class="pc-member"><strong>Mario Wieser</strong>, <span class="pc-affiliation">Genedata AG</span></div>
+<div class="pc-member"><strong>Florian Barkmann</strong>, <span class="pc-affiliation">ETH Zurich</span></div>
+<div class="pc-member"><strong>Raphael Pisoni</strong>, <span class="pc-affiliation">Software Competence Center Hagenberg</span></div>
+<div class="pc-member"><strong>Rian Atri</strong>, <span class="pc-affiliation">Wake Technical Community College</span></div>
+<div class="pc-member"><strong>Ana Durica</strong>, <span class="pc-affiliation">University College London</span></div>
+<div class="pc-member"><strong>Maxim Samarin</strong>, <span class="pc-affiliation">Swiss Data Science Center</span></div>
+<div class="pc-member"><strong>Daphné Chopard</strong>, <span class="pc-affiliation">ETH Zurich</span></div>
+<div class="pc-member"><strong>Jorge da Silva Gonçalves</strong>, <span class="pc-affiliation">ETH Zurich</span></div>
+<div class="pc-member"><strong>Hugo Thimonier</strong>, <span class="pc-affiliation">Emobot</span></div>
+<div class="pc-member"><strong>Khushboo Bhatia</strong>, <span class="pc-affiliation">Google</span></div>
+<div class="pc-member"><strong>Moritz Vandenhirtz</strong>, <span class="pc-affiliation">ETH Zurich</span></div>
+<div class="pc-member"><strong>Miguel Rodrigo</strong>, <span class="pc-affiliation">Universidad de Valencia</span></div>
+<div class="pc-member"><strong>Fabricio Arend Torres</strong>, <span class="pc-affiliation">Rekonas GmbH</span></div>
+<div class="pc-member"><strong>Olga Ovcharenko</strong>, <span class="pc-affiliation">Technische Universität Berlin</span></div>
+<div class="pc-member"><strong>Sonia Laguna</strong>, <span class="pc-affiliation">ETH Zurich</span></div>
+<div class="pc-member"><strong>Simon Böhi</strong>, <span class="pc-affiliation">University of Basel</span></div>
+<div class="pc-member"><strong>Prasanth Ganesan</strong>, <span class="pc-affiliation">Stanford University</span></div>
+<div class="pc-member"><strong>Alain Ryser</strong>, <span class="pc-affiliation">ETH Zurich</span></div>
+<div class="pc-member"><strong>Alice Bizeul</strong>, <span class="pc-affiliation">ETH Zurich</span></div>
+<div class="pc-member"><strong>Alvise Dei Rossi</strong>, <span class="pc-affiliation">Università della Svizzera Italiana</span></div>
+<div class="pc-member"><strong>Federico Felizzi</strong>, <span class="pc-affiliation">SIIAM</span></div>
+<div class="pc-member"><strong>Natalia Sikora</strong>, <span class="pc-affiliation">Swansea University</span></div>
+<div class="pc-member"><strong>Marc Glettig</strong>, <span class="pc-affiliation">ETH Zurich</span></div>
+<div class="pc-member"><strong>Alejandro Guerrero-López</strong>, <span class="pc-affiliation">University of Zurich</span></div>
+<div class="pc-member"><strong>Leonardo P.A. Biral</strong>, <span class="pc-affiliation">Duke University</span></div>
+<div class="pc-member"><strong>Arinbjörn Kolbeinsson</strong>, <span class="pc-affiliation">University of Virginia, Charlottesville</span></div>
+<div class="pc-member"><strong>Michael Reiss</strong>, <span class="pc-affiliation">University of California, San Diego</span></div>
+<div class="pc-member"><strong>Hanwen Xing</strong>, <span class="pc-affiliation">University of Oxford</span></div>
+<div class="pc-member"><strong>Thomas Weikert</strong>, <span class="pc-affiliation">INRIA</span></div>
+<div class="pc-member"><strong>Pratik Kumar</strong>, <span class="pc-affiliation">California Polytechnic State University, Pomona</span></div>
+<div class="pc-member"><strong>Harika Mahapatra</strong>, <span class="pc-affiliation">Sree Vidyanikethan Engineering College</span></div>
+<div class="pc-member"><strong>Alberto López</strong>, <span class="pc-affiliation">University of Oslo</span></div>
+<div class="pc-member"><strong>Marco Barbero Mota</strong>, <span class="pc-affiliation">Vanderbilt University</span></div>
+<div class="pc-member"><strong>Azmine Toushik Wasi</strong>, <span class="pc-affiliation">Computational Intelligence and Operations Laboratory</span></div>
+<div class="pc-member"><strong>Maria Elkjær Montgomery</strong>, <span class="pc-affiliation">University of Copenhagen</span></div>
+<div class="pc-member"><strong>Yang Meng</strong>, <span class="pc-affiliation">University of California, Irvine</span></div>
+<div class="pc-member"><strong>Aayush Grover</strong>, <span class="pc-affiliation">ETH Zurich</span></div>
+<div class="pc-member"><strong>Sergio Muñoz Gonzalez</strong>, <span class="pc-affiliation">University of Basel</span></div>
+<div class="pc-member"><strong>Mahule Roy</strong>, <span class="pc-affiliation">National Institute of Technology Karnataka</span></div>
+<div class="pc-member"><strong>Aditya Acharya</strong>, <span class="pc-affiliation">Hochschule für Technik und Wirtschaft des Saarlandes</span></div>
+<div class="pc-member"><strong>Herman Bergström</strong>, <span class="pc-affiliation">Chalmers University of Technology</span></div>
+<div class="pc-member"><strong>Tobias Scheithauer</strong>, <span class="pc-affiliation">ETH Zurich</span></div>
+<div class="pc-member"><strong>Robin C. Geyer</strong>, <span class="pc-affiliation">ETH Zurich</span></div>
+<div class="pc-member"><strong>Paul Fischer</strong>, <span class="pc-affiliation">Eberhard-Karls-Universität Tübingen</span></div>
+<div class="pc-member"><strong>Marina Esteban-Medina</strong>, <span class="pc-affiliation">ETH Zurich</span></div>
+<div class="pc-member"><strong>Agnieszka Kraft</strong>, <span class="pc-affiliation">ETH Zurich</span></div>
+<div class="pc-member"><strong>Kalin Nonchev</strong>, <span class="pc-affiliation">ETH Zurich</span></div>
+<div class="pc-member"><strong>Francesco Ignazio Re</strong>, <span class="pc-affiliation">ETH Zurich</span></div>
+<div class="pc-member"><strong>Ahlem AZIZ</strong>, <span class="pc-affiliation">Karabuk University</span></div>
+
+</div>
+
 ### Contact
 - General inquiries: <mmrl4h@gmail.com>
 
