@@ -14,7 +14,7 @@ default_language = "en"
 theme = "academic-workshop"
 
 [markdown]
-highlight_code = true
+highlighting = true
 
 [extra]
 # Hero header (use block tables instead of inline)
