@@ -154,7 +154,156 @@ All accepted workshop papers will be presented as physical posters during the MM
     <br>
 
 ---
+---
 
+<section id="awards">
+
+## Awards {#awards}
+
+<style>
+.awards-intro {
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.awards-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.award-card {
+    background: rgba(255, 255, 255, 0.55);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 14px;
+    padding: 1.25rem 1.25rem 1.5rem 1.25rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+    height: 100%;
+}
+
+.award-title {
+    font-weight: 700;
+    font-size: 1.05rem;
+    margin-bottom: 0.5rem;
+}
+
+.award-paper {
+    font-style: italic;
+    line-height: 1.45;
+    margin-bottom: 0.5rem;
+}
+
+.award-authors {
+    color: #666;
+    line-height: 1.45;
+    margin-bottom: 1rem;
+}
+
+.award-certificate-link {
+    display: block;
+    text-decoration: none;
+}
+
+.award-certificate {
+    display: block;
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+.award-pdf-note {
+    display: block;
+    text-align: center;
+    margin-top: 0.6rem;
+    font-size: 0.95rem;
+}
+
+/* tablet */
+@media (min-width: 760px) {
+    .awards-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* desktop */
+@media (min-width: 1100px) {
+    .awards-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+</style>
+
+<p class="awards-intro">
+We are delighted to recognize the following outstanding contributions presented at the workshop.
+</p>
+
+<div class="awards-grid">
+
+    <div class="award-card">
+        <div class="award-title">Best Paper Award</div>
+        <div class="award-paper">[When are radiology reports useful for training medical image classifiers?]</div>
+        <div class="award-authors">[Herman Bergström, Zhongqi Yue, Fredrik D. Johansson]</div>
+        <a class="award-certificate-link" href="/awards/best_paper.pdf" target="_blank">
+            <img class="award-certificate" src="/awards/best_paper.png" alt="Best Paper Award certificate">
+        </a>
+        <span class="award-pdf-note"><a href="/awards/best_paper.pdf" target="_blank">View certificate (PDF)</a></span>
+    </div>
+
+    <div class="award-card">
+        <div class="award-title">Runner-up Paper Presentation Award</div>
+        <div class="award-paper">[POEMS: Product of Experts for Interpretable Multi-omic Integration using Sparse Decoding
+]</div>
+        <div class="award-authors">[Mihriban Kocak Balik, Pekka Marttinen, Negar Safinianaini]</div>
+        <a class="award-certificate-link" href="/awards/runnerup_paper.pdf" target="_blank">
+            <img class="award-certificate" src="/awards/runnerup_paper.png" alt="Runner-up Paper Award certificate">
+        </a>
+        <span class="award-pdf-note"><a href="/awards/runnerup_paper.pdf" target="_blank">View certificate (PDF)</a></span>
+    </div>
+
+    <div class="award-card">
+        <div class="award-title">Best Presentation Award</div>
+        <div class="award-paper">[Are Large Vision Language Models Truly Grounded in Medical Images? Evidence from Italian Clinical 
+Visual Question Answering]</div>
+        <div class="award-authors">[Federico Felizzi, Olivia Riccomi, Michele Ferramola, Francesco Andrea Causio, Manuel Del Medico, De 
+Vita Vittorio, Lorenzo De Mori, Alessandra Piscitelli, Pietro Eric Risuleo, Bianca Destro Castaniti, 
+Antonio Cristiano, Alessia Longo, Luigi De Angelis, Mariapia Vassalli, Marcello Di Pumpo]</div>
+        <a class="award-certificate-link" href="/awards/best_presentation.pdf" target="_blank">
+            <img class="award-certificate" src="/awards/best_presentation.png" alt="Best Oral Presentation certificate">
+        </a>
+        <span class="award-pdf-note"><a href="/awards/best_presentation.pdf" target="_blank">View certificate (PDF)</a></span>
+    </div>
+
+    <div class="award-card">
+        <div class="award-title">Best Poster Award</div>
+        <div class="award-paper">[Multi-Modal AI for Remote Patient Monitoring in Cancer Care]</div>
+        <div class="award-authors">[Yansong Liu, Ronnie Stafford, Pramit Khetrapal, Huriye Kocadag, Graca Carvalho, Patricia de Winter, Maryam Imran, 
+Amelia Snook, Adamos Hadjivasiliou, D Vijay Anand, Weining Lin, John Kelly, Yukun Zhou, Ivana Drobnjak]</div>
+        <a class="award-certificate-link" href="/awards/best_poster.pdf" target="_blank">
+            <img class="award-certificate" src="/awards/best_poster.png" alt="Best Poster certificate">
+        </a>
+        <span class="award-pdf-note"><a href="/awards/best_poster.pdf" target="_blank">View certificate (PDF)</a></span>
+    </div>
+
+    <div class="award-card">
+        <div class="award-title">Runner-up Poster Award</div>
+        <div class="award-paper">[A tutorial on discovering and quantifying the effect of latent causal sources of multimodal EHR data]</div>
+        <div class="award-authors">[Marco Barbero Mota, Eric Strobl, John M Still, William W. Stead, Thomas A Lasko]</div>
+        <a class="award-certificate-link" href="/awards/runnerup_poster.pdf" target="_blank">
+            <img class="award-certificate" src="/awards/runnerup_poster.png" alt="Runner-up Poster certificate">
+        </a>
+        <span class="award-pdf-note"><a href="/awards/runnerup_poster.pdf" target="_blank">View certificate (PDF)</a></span>
+    </div>
+
+</div>
+
+</section>
+
+---
 <section id="schedule">
 <style>
 #schedule table td:first-child,
