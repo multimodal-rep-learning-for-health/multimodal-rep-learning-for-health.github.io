@@ -171,12 +171,13 @@ All accepted workshop papers will be presented as physical posters during the MM
 }
 
 .award-card {
+    display: flex;
+    flex-direction: column;
     background: rgba(255, 255, 255, 0.55);
     border: 1px solid rgba(0, 0, 0, 0.08);
     border-radius: 14px;
-    padding: 1.25rem 1.25rem 1.5rem 1.25rem;
+    padding: 1.25rem;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
-    height: 100%;
 }
 
 .award-title {
@@ -193,30 +194,28 @@ All accepted workshop papers will be presented as physical posters during the MM
 
 .award-authors {
     color: #666;
+    font-size: 0.9rem;
     line-height: 1.45;
-    margin-bottom: 1rem;
+    margin-bottom: 0;
 }
 
 .award-certificate-link {
     display: block;
-    text-decoration: none;
+    margin-top: auto;
+    padding-top: 1.25rem;
 }
 
 .award-certificate {
     display: block;
     width: 100%;
-    max-width: 320px;
-    margin: 0 auto;
     border-radius: 8px;
     border: 1px solid rgba(0, 0, 0, 0.08);
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+    transition: opacity 0.2s ease;
 }
 
-.award-pdf-note {
-    display: block;
-    text-align: center;
-    margin-top: 0.6rem;
-    font-size: 0.95rem;
+.award-certificate:hover {
+    opacity: 0.85;
 }
 
 @media (min-width: 760px) {
@@ -232,9 +231,7 @@ All accepted workshop papers will be presented as physical posters during the MM
 }
 </style>
 
-<p class="awards-intro">
-We are delighted to recognize the following outstanding contributions presented at the workshop.
-</p>
+<p class="awards-intro">We are delighted to recognize the following outstanding contributions presented at the workshop.</p>
 
 <div class="awards-grid">
 <div class="award-card">
@@ -244,7 +241,6 @@ We are delighted to recognize the following outstanding contributions presented 
 <a class="award-certificate-link" href="/awards/best_paper.pdf" target="_blank">
 <img class="award-certificate" src="/awards/best_paper.png" alt="Best Paper Award certificate">
 </a>
-<span class="award-pdf-note"><a href="/awards/best_paper.pdf" target="_blank">View certificate (PDF)</a></span>
 </div>
 <div class="award-card">
 <div class="award-title">Runner-up Paper Presentation Award</div>
@@ -253,7 +249,6 @@ We are delighted to recognize the following outstanding contributions presented 
 <a class="award-certificate-link" href="/awards/runnerup_paper.pdf" target="_blank">
 <img class="award-certificate" src="/awards/runnerup_paper.png" alt="Runner-up Paper Award certificate">
 </a>
-<span class="award-pdf-note"><a href="/awards/runnerup_paper.pdf" target="_blank">View certificate (PDF)</a></span>
 </div>
 <div class="award-card">
 <div class="award-title">Best Presentation Award</div>
@@ -262,7 +257,6 @@ We are delighted to recognize the following outstanding contributions presented 
 <a class="award-certificate-link" href="/awards/best_presentation.pdf" target="_blank">
 <img class="award-certificate" src="/awards/best_presentation.png" alt="Best Oral Presentation certificate">
 </a>
-<span class="award-pdf-note"><a href="/awards/best_presentation.pdf" target="_blank">View certificate (PDF)</a></span>
 </div>
 <div class="award-card">
 <div class="award-title">Best Poster Award</div>
@@ -271,7 +265,6 @@ We are delighted to recognize the following outstanding contributions presented 
 <a class="award-certificate-link" href="/awards/best_poster.pdf" target="_blank">
 <img class="award-certificate" src="/awards/best_poster.png" alt="Best Poster certificate">
 </a>
-<span class="award-pdf-note"><a href="/awards/best_poster.pdf" target="_blank">View certificate (PDF)</a></span>
 </div>
 <div class="award-card">
 <div class="award-title">Runner-up Poster Award</div>
@@ -280,7 +273,6 @@ We are delighted to recognize the following outstanding contributions presented 
 <a class="award-certificate-link" href="/awards/runnerup_poster.pdf" target="_blank">
 <img class="award-certificate" src="/awards/runnerup_poster.png" alt="Runner-up Poster certificate">
 </a>
-<span class="award-pdf-note"><a href="/awards/runnerup_poster.pdf" target="_blank">View certificate (PDF)</a></span>
 </div>
 </div>
 
