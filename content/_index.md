@@ -596,7 +596,63 @@ All accepted workshop papers will be presented as physical posters during the MM
 <div class="pc-member"><strong>Ahlem AZIZ</strong>, <span class="pc-affiliation">Karabuk University</span></div>
 
 </div>
+---
 
+<section id="gallery">
+
+## Gallery {#gallery}
+
+<style>
+.gallery-grid {
+    columns: 2;
+    column-gap: 0.75rem;
+    margin-top: 1.5rem;
+}
+
+@media (min-width: 600px) {
+    .gallery-grid {
+        columns: 3;
+    }
+}
+
+@media (min-width: 900px) {
+    .gallery-grid {
+        columns: 4;
+    }
+}
+
+.gallery-item {
+    break-inside: avoid;
+    margin-bottom: 0.75rem;
+}
+
+.gallery-item img {
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    transition: opacity 0.2s ease;
+}
+
+.gallery-item img:hover {
+    opacity: 0.85;
+}
+</style>
+
+<div class="gallery-grid">
+<div class="gallery-item"><img src="/gallery/mmrl4h_1.jpeg" alt="MMRL4H workshop photo 1"></div>
+<div class="gallery-item"><img src="/gallery/mmrl4h_2.jpeg" alt="MMRL4H workshop photo 2"></div>
+<div class="gallery-item"><img src="/gallery/mmrl4h_3.jpeg" alt="MMRL4H workshop photo 3"></div>
+<div class="gallery-item"><img src="/gallery/mmrl4h_4.jpeg" alt="MMRL4H workshop photo 4"></div>
+<div class="gallery-item"><img src="/gallery/mmrl4h_5.jpeg" alt="MMRL4H workshop photo 5"></div>
+<div class="gallery-item"><img src="/gallery/mmrl4h_6.jpeg" alt="MMRL4H workshop photo 6"></div>
+<div class="gallery-item"><img src="/gallery/mmrl4h_7.jpeg" alt="MMRL4H workshop photo 7"></div>
+<div class="gallery-item"><img src="/gallery/mmrl4h_8.jpeg" alt="MMRL4H workshop photo 8"></div>
+<div class="gallery-item"><img src="/gallery/mmrl4h_9.jpeg" alt="MMRL4H workshop photo 9"></div>
+<div class="gallery-item"><img src="/gallery/mmrl4h_10.jpeg" alt="MMRL4H workshop photo 10"></div>
+</div>
+
+</section>
 ### Contact
 - General inquiries: <mmrl4h@gmail.com>
 
