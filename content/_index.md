@@ -290,6 +290,7 @@ We are delighted to recognize the following outstanding contributions presented 
 
 </div>
 
+</section>
 ---
 <section id="schedule">
 <style>
