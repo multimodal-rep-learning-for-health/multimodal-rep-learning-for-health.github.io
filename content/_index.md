@@ -288,6 +288,92 @@ All accepted workshop papers will be presented as physical posters during the MM
 
 ---
 
+---
+
+<section id="sponsors">
+
+## Sponsors {#sponsors}
+
+<style>
+.sponsors-intro {
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.sponsors-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 700px) {
+    .sponsors-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.sponsor-card {
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.55);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 14px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+}
+
+.sponsor-logo-link {
+    display: block;
+    margin-bottom: 1.25rem;
+}
+
+.sponsor-logo {
+    height: 60px;
+    width: auto;
+    object-fit: contain;
+    display: block;
+}
+
+.sponsor-contribution {
+    font-size: 0.95rem;
+    line-height: 1.55;
+    color: #444;
+    margin-bottom: 0.6rem;
+}
+
+.sponsor-amount {
+    margin-top: auto;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #888;
+}
+</style>
+
+<p class="sponsors-intro">We gratefully acknowledge the generous support of our sponsors.</p>
+
+<div class="sponsors-grid">
+<div class="sponsor-card">
+<a class="sponsor-logo-link" href="https://brc.ch" target="_blank">
+<img class="sponsor-logo" src="/img/brcch_logo.png" alt="Basel Research Centre for Child Health">
+</a>
+<div class="sponsor-contribution">Supported the <strong>Best Paper Award</strong>, <strong>Best Oral Presentation Award</strong>, and <strong>Runner-up Best Paper Presentation Award</strong>.</div>
+<div class="sponsor-amount">CHF 1,000</div>
+</div>
+<div class="sponsor-card">
+<a class="sponsor-logo-link" href="https://www.quantco.com/" target="_blank">
+<img class="sponsor-logo" src="/img/quantco_logo.png" alt="Quantco">
+</a>
+<div class="sponsor-contribution">Supported the <strong>Poster Awards</strong>, <strong>Travel Support</strong> for attendees, <strong>Workshop Dinner</strong>, workshop prizes, and miscellaneous costs.</div>
+<div class="sponsor-amount">CHF 4,000</div>
+</div>
+</div>
+
+</section>
+
+---
+
 <section id="schedule">
 <style>
 #schedule table td:first-child,
