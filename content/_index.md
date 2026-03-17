@@ -596,6 +596,9 @@ All accepted workshop papers will be presented as physical posters during the MM
 <div class="pc-member"><strong>Ahlem AZIZ</strong>, <span class="pc-affiliation">Karabuk University</span></div>
 
 </div>
+
+---
+
 ---
 
 <section id="gallery">
@@ -603,56 +606,144 @@ All accepted workshop papers will be presented as physical posters during the MM
 ## Gallery {#gallery}
 
 <style>
-.gallery-grid {
-    columns: 2;
-    column-gap: 0.75rem;
+.carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 12px;
+    background: #000;
     margin-top: 1.5rem;
 }
 
-@media (min-width: 600px) {
-    .gallery-grid {
-        columns: 3;
-    }
+.carousel-track {
+    display: flex;
+    transition: transform 0.4s ease;
 }
 
-@media (min-width: 900px) {
-    .gallery-grid {
-        columns: 4;
-    }
-}
-
-.gallery-item {
-    break-inside: avoid;
-    margin-bottom: 0.75rem;
-}
-
-.gallery-item img {
-    display: block;
+.carousel-track img {
+    min-width: 100%;
+    max-height: 520px;
     width: 100%;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
-    transition: opacity 0.2s ease;
+    object-fit: contain;
+    display: block;
 }
 
-.gallery-item img:hover {
-    opacity: 0.85;
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.45);
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s ease;
+}
+
+.carousel-btn:hover {
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.carousel-btn.prev { left: 0.75rem; }
+.carousel-btn.next { right: 0.75rem; }
+
+.carousel-dots {
+    display: flex;
+    justify-content: center;
+    gap: 0.4rem;
+    margin-top: 0.75rem;
+}
+
+.carousel-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #ccc;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    transition: background 0.2s ease;
+}
+
+.carousel-dot.active {
+    background: #555;
 }
 </style>
 
-<div class="gallery-grid">
-<div class="gallery-item"><img src="/gallery/mmrl4h_1.jpeg" alt="MMRL4H workshop photo 1"></div>
-<div class="gallery-item"><img src="/gallery/mmrl4h_2.jpeg" alt="MMRL4H workshop photo 2"></div>
-<div class="gallery-item"><img src="/gallery/mmrl4h_3.jpeg" alt="MMRL4H workshop photo 3"></div>
-<div class="gallery-item"><img src="/gallery/mmrl4h_4.jpeg" alt="MMRL4H workshop photo 4"></div>
-<div class="gallery-item"><img src="/gallery/mmrl4h_5.jpeg" alt="MMRL4H workshop photo 5"></div>
-<div class="gallery-item"><img src="/gallery/mmrl4h_6.jpeg" alt="MMRL4H workshop photo 6"></div>
-<div class="gallery-item"><img src="/gallery/mmrl4h_7.jpeg" alt="MMRL4H workshop photo 7"></div>
-<div class="gallery-item"><img src="/gallery/mmrl4h_8.jpeg" alt="MMRL4H workshop photo 8"></div>
-<div class="gallery-item"><img src="/gallery/mmrl4h_9.jpeg" alt="MMRL4H workshop photo 9"></div>
-<div class="gallery-item"><img src="/gallery/mmrl4h_10.jpeg" alt="MMRL4H workshop photo 10"></div>
+<div class="carousel" id="gallery-carousel">
+<div class="carousel-track" id="gallery-track">
+<img src="/gallery/mmrl4h_1.jpeg" alt="MMRL4H workshop photo 1">
+<img src="/gallery/mmrl4h_2.jpeg" alt="MMRL4H workshop photo 2">
+<img src="/gallery/mmrl4h_3.jpeg" alt="MMRL4H workshop photo 3">
+<img src="/gallery/mmrl4h_4.jpeg" alt="MMRL4H workshop photo 4">
+<img src="/gallery/mmrl4h_5.jpeg" alt="MMRL4H workshop photo 5">
+<img src="/gallery/mmrl4h_6.jpeg" alt="MMRL4H workshop photo 6">
+<img src="/gallery/mmrl4h_7.jpeg" alt="MMRL4H workshop photo 7">
+<img src="/gallery/mmrl4h_8.jpeg" alt="MMRL4H workshop photo 8">
+<img src="/gallery/mmrl4h_9.jpeg" alt="MMRL4H workshop photo 9">
+<img src="/gallery/mmrl4h_10.jpeg" alt="MMRL4H workshop photo 10">
 </div>
+<button class="carousel-btn prev" id="gallery-prev" aria-label="Previous photo">&#8249;</button>
+<button class="carousel-btn next" id="gallery-next" aria-label="Next photo">&#8250;</button>
+</div>
+<div class="carousel-dots" id="gallery-dots"></div>
+
+<script>
+(function() {
+    var track = document.getElementById('gallery-track');
+    var imgs = track.querySelectorAll('img');
+    var dotsContainer = document.getElementById('gallery-dots');
+    var current = 0;
+    var total = imgs.length;
+
+    // Build dots
+    for (var i = 0; i < total; i++) {
+        var dot = document.createElement('button');
+        dot.className = 'carousel-dot' + (i === 0 ? ' active' : '');
+        dot.setAttribute('aria-label', 'Go to photo ' + (i + 1));
+        dot.dataset.index = i;
+        dot.addEventListener('click', function() { goTo(parseInt(this.dataset.index)); });
+        dotsContainer.appendChild(dot);
+    }
+
+    function goTo(n) {
+        current = (n + total) % total;
+        track.style.transform = 'translateX(-' + (current * 100) + '%)';
+        dotsContainer.querySelectorAll('.carousel-dot').forEach(function(d, i) {
+            d.classList.toggle('active', i === current);
+        });
+    }
+
+    document.getElementById('gallery-prev').addEventListener('click', function() { goTo(current - 1); });
+    document.getElementById('gallery-next').addEventListener('click', function() { goTo(current + 1); });
+
+    // Keyboard navigation
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'ArrowLeft') goTo(current - 1);
+        if (e.key === 'ArrowRight') goTo(current + 1);
+    });
+
+    // Touch/swipe support
+    var startX = null;
+    track.addEventListener('touchstart', function(e) { startX = e.touches[0].clientX; }, {passive: true});
+    track.addEventListener('touchend', function(e) {
+        if (startX === null) return;
+        var diff = startX - e.changedTouches[0].clientX;
+        if (Math.abs(diff) > 40) goTo(diff > 0 ? current + 1 : current - 1);
+        startX = null;
+    }, {passive: true});
+})();
+</script>
 
 </section>
+
 ### Contact
 - General inquiries: <mmrl4h@gmail.com>
 
