@@ -288,8 +288,6 @@ All accepted workshop papers will be presented as physical posters during the MM
 
 ---
 
----
-
 <section id="sponsors">
 
 ## Sponsors {#sponsors}
@@ -414,6 +412,7 @@ All accepted workshop papers will be presented as physical posters during the MM
 </section>
 
 ---
+
 <section id="speakers">
 
 ## Confirmed Speakers {#confirmed-speakers}
@@ -609,7 +608,7 @@ All accepted workshop papers will be presented as physical posters during the MM
 
 ---
 
-## Program Committee {#program-committee}
+## Program Committee Members {#program-committee}
 
 <style>
 .pc-grid {
@@ -690,8 +689,6 @@ All accepted workshop papers will be presented as physical posters during the MM
 <div class="pc-member"><strong>Ahlem AZIZ</strong>, <span class="pc-affiliation">Karabuk University</span></div>
 
 </div>
-
----
 
 ---
 
@@ -837,6 +834,8 @@ All accepted workshop papers will be presented as physical posters during the MM
 </script>
 
 </section>
+
+---
 
 ### Contact
 - General inquiries: <mmrl4h@gmail.com>
