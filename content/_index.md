@@ -237,57 +237,51 @@ We are delighted to recognize the following outstanding contributions presented 
 </p>
 
 <div class="awards-grid">
-
-    <div class="award-card">
-        <div class="award-title">Best Paper Award</div>
-        <div class="award-paper">When are radiology reports useful for training medical image classifiers?</div>
-        <div class="award-authors">Herman Bergström, Zhongqi Yue, Fredrik D. Johansson</div>
-        <a class="award-certificate-link" href="/awards/best_paper.pdf" target="_blank">
-            <img class="award-certificate" src="/awards/best_paper.png" alt="Best Paper Award certificate">
-        </a>
-        <span class="award-pdf-note"><a href="/awards/best_paper.pdf" target="_blank">View certificate (PDF)</a></span>
-    </div>
-
-    <div class="award-card">
-        <div class="award-title">Runner-up Paper Presentation Award</div>
-        <div class="award-paper">POEMS: Product of Experts for Interpretable Multi-omic Integration using Sparse Decoding</div>
-        <div class="award-authors">Mihriban Kocak Balik, Pekka Marttinen, Negar Safinianaini</div>
-        <a class="award-certificate-link" href="/awards/runnerup_paper.pdf" target="_blank">
-            <img class="award-certificate" src="/awards/runnerup_paper.png" alt="Runner-up Paper Award certificate">
-        </a>
-        <span class="award-pdf-note"><a href="/awards/runnerup_paper.pdf" target="_blank">View certificate (PDF)</a></span>
-    </div>
-
-    <div class="award-card">
-        <div class="award-title">Best Presentation Award</div>
-        <div class="award-paper">Are Large Vision Language Models Truly Grounded in Medical Images? Evidence from Italian Clinical Visual Question Answering</div>
-        <div class="award-authors">Federico Felizzi, Olivia Riccomi, Michele Ferramola, Francesco Andrea Causio, Manuel Del Medico, De Vita Vittorio, Lorenzo De Mori, Alessandra Piscitelli, Pietro Eric Risuleo, Bianca Destro Castaniti, Antonio Cristiano, Alessia Longo, Luigi De Angelis, Mariapia Vassalli, Marcello Di Pumpo</div>
-        <a class="award-certificate-link" href="/awards/best_presentation.pdf" target="_blank">
-            <img class="award-certificate" src="/awards/best_presentation.png" alt="Best Oral Presentation certificate">
-        </a>
-        <span class="award-pdf-note"><a href="/awards/best_presentation.pdf" target="_blank">View certificate (PDF)</a></span>
-    </div>
-
-    <div class="award-card">
-        <div class="award-title">Best Poster Award</div>
-        <div class="award-paper">Multi-Modal AI for Remote Patient Monitoring in Cancer Care</div>
-        <div class="award-authors">Yansong Liu, Ronnie Stafford, Pramit Khetrapal, Huriye Kocadag, Graca Carvalho, Patricia de Winter, Maryam Imran, Amelia Snook, Adamos Hadjivasiliou, D Vijay Anand, Weining Lin, John Kelly, Yukun Zhou, Ivana Drobnjak</div>
-        <a class="award-certificate-link" href="/awards/best_poster.pdf" target="_blank">
-            <img class="award-certificate" src="/awards/best_poster.png" alt="Best Poster certificate">
-        </a>
-        <span class="award-pdf-note"><a href="/awards/best_poster.pdf" target="_blank">View certificate (PDF)</a></span>
-    </div>
-
-    <div class="award-card">
-        <div class="award-title">Runner-up Poster Award</div>
-        <div class="award-paper">A tutorial on discovering and quantifying the effect of latent causal sources of multimodal EHR data</div>
-        <div class="award-authors">Marco Barbero Mota, Eric Strobl, John M Still, William W. Stead, Thomas A Lasko</div>
-        <a class="award-certificate-link" href="/awards/runnerup_poster.pdf" target="_blank">
-            <img class="award-certificate" src="/awards/runnerup_poster.png" alt="Runner-up Poster certificate">
-        </a>
-        <span class="award-pdf-note"><a href="/awards/runnerup_poster.pdf" target="_blank">View certificate (PDF)</a></span>
-    </div>
-
+<div class="award-card">
+<div class="award-title">Best Paper Award</div>
+<div class="award-paper">When are radiology reports useful for training medical image classifiers?</div>
+<div class="award-authors">Herman Bergström, Zhongqi Yue, Fredrik D. Johansson</div>
+<a class="award-certificate-link" href="/awards/best_paper.pdf" target="_blank">
+<img class="award-certificate" src="/awards/best_paper.png" alt="Best Paper Award certificate">
+</a>
+<span class="award-pdf-note"><a href="/awards/best_paper.pdf" target="_blank">View certificate (PDF)</a></span>
+</div>
+<div class="award-card">
+<div class="award-title">Runner-up Paper Presentation Award</div>
+<div class="award-paper">POEMS: Product of Experts for Interpretable Multi-omic Integration using Sparse Decoding</div>
+<div class="award-authors">Mihriban Kocak Balik, Pekka Marttinen, Negar Safinianaini</div>
+<a class="award-certificate-link" href="/awards/runnerup_paper.pdf" target="_blank">
+<img class="award-certificate" src="/awards/runnerup_paper.png" alt="Runner-up Paper Award certificate">
+</a>
+<span class="award-pdf-note"><a href="/awards/runnerup_paper.pdf" target="_blank">View certificate (PDF)</a></span>
+</div>
+<div class="award-card">
+<div class="award-title">Best Presentation Award</div>
+<div class="award-paper">Are Large Vision Language Models Truly Grounded in Medical Images? Evidence from Italian Clinical Visual Question Answering</div>
+<div class="award-authors">Federico Felizzi, Olivia Riccomi, Michele Ferramola, Francesco Andrea Causio, Manuel Del Medico, De Vita Vittorio, Lorenzo De Mori, Alessandra Piscitelli, Pietro Eric Risuleo, Bianca Destro Castaniti, Antonio Cristiano, Alessia Longo, Luigi De Angelis, Mariapia Vassalli, Marcello Di Pumpo</div>
+<a class="award-certificate-link" href="/awards/best_presentation.pdf" target="_blank">
+<img class="award-certificate" src="/awards/best_presentation.png" alt="Best Oral Presentation certificate">
+</a>
+<span class="award-pdf-note"><a href="/awards/best_presentation.pdf" target="_blank">View certificate (PDF)</a></span>
+</div>
+<div class="award-card">
+<div class="award-title">Best Poster Award</div>
+<div class="award-paper">Multi-Modal AI for Remote Patient Monitoring in Cancer Care</div>
+<div class="award-authors">Yansong Liu, Ronnie Stafford, Pramit Khetrapal, Huriye Kocadag, Graca Carvalho, Patricia de Winter, Maryam Imran, Amelia Snook, Adamos Hadjivasiliou, D Vijay Anand, Weining Lin, John Kelly, Yukun Zhou, Ivana Drobnjak</div>
+<a class="award-certificate-link" href="/awards/best_poster.pdf" target="_blank">
+<img class="award-certificate" src="/awards/best_poster.png" alt="Best Poster certificate">
+</a>
+<span class="award-pdf-note"><a href="/awards/best_poster.pdf" target="_blank">View certificate (PDF)</a></span>
+</div>
+<div class="award-card">
+<div class="award-title">Runner-up Poster Award</div>
+<div class="award-paper">A tutorial on discovering and quantifying the effect of latent causal sources of multimodal EHR data</div>
+<div class="award-authors">Marco Barbero Mota, Eric Strobl, John M Still, William W. Stead, Thomas A Lasko</div>
+<a class="award-certificate-link" href="/awards/runnerup_poster.pdf" target="_blank">
+<img class="award-certificate" src="/awards/runnerup_poster.png" alt="Runner-up Poster certificate">
+</a>
+<span class="award-pdf-note"><a href="/awards/runnerup_poster.pdf" target="_blank">View certificate (PDF)</a></span>
+</div>
 </div>
 
 </section>
