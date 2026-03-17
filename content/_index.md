@@ -4,6 +4,14 @@ title = "MMRL4H @ EurIPS 2025"
 
 ---
 
+<style>
+.banner-attendees {
+    margin-top: 0.4rem;
+    font-size: 0.9rem;
+    color: #888;
+}
+</style>
+
 <section id="about">
 
 ## About {#about}
