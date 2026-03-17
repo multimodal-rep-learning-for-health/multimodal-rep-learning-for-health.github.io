@@ -277,7 +277,9 @@ All accepted workshop papers will be presented as physical posters during the MM
 </div>
 
 </section>
+
 ---
+
 <section id="schedule">
 <style>
 #schedule table td:first-child,
